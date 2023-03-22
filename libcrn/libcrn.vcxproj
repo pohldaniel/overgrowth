@@ -1,0 +1,329 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="crunch\crnlib.cpp" />
+    <ClCompile Include="crunch\crn_arealist.cpp" />
+    <ClCompile Include="crunch\crn_assert.cpp" />
+    <ClCompile Include="crunch\crn_checksum.cpp" />
+    <ClCompile Include="crunch\crn_colorized_console.cpp" />
+    <ClCompile Include="crunch\crn_command_line_params.cpp" />
+    <ClCompile Include="crunch\crn_comp.cpp" />
+    <ClCompile Include="crunch\crn_console.cpp" />
+    <ClCompile Include="crunch\crn_core.cpp" />
+    <ClCompile Include="crunch\crn_data_stream.cpp" />
+    <ClCompile Include="crunch\crn_dds_comp.cpp" />
+    <ClCompile Include="crunch\crn_decomp.cpp" />
+    <ClCompile Include="crunch\crn_dxt.cpp" />
+    <ClCompile Include="crunch\crn_dxt1.cpp" />
+    <ClCompile Include="crunch\crn_dxt5a.cpp" />
+    <ClCompile Include="crunch\crn_dxt_endpoint_refiner.cpp" />
+    <ClCompile Include="crunch\crn_dxt_fast.cpp" />
+    <ClCompile Include="crunch\crn_dxt_hc.cpp" />
+    <ClCompile Include="crunch\crn_dxt_hc_common.cpp" />
+    <ClCompile Include="crunch\crn_dxt_image.cpp" />
+    <ClCompile Include="crunch\crn_dynamic_string.cpp" />
+    <ClCompile Include="crunch\crn_etc.cpp" />
+    <ClCompile Include="crunch\crn_file_utils.cpp" />
+    <ClCompile Include="crunch\crn_find_files.cpp" />
+    <ClCompile Include="crunch\crn_hash.cpp" />
+    <ClCompile Include="crunch\crn_hash_map.cpp" />
+    <ClCompile Include="crunch\crn_huffman_codes.cpp" />
+    <ClCompile Include="crunch\crn_image_utils.cpp" />
+    <ClCompile Include="crunch\crn_jpgd.cpp" />
+    <ClCompile Include="crunch\crn_jpge.cpp" />
+    <ClCompile Include="crunch\crn_ktx_texture.cpp" />
+    <ClCompile Include="crunch\crn_lzma_codec.cpp" />
+    <ClCompile Include="crunch\crn_math.cpp" />
+    <ClCompile Include="crunch\crn_mem.cpp" />
+    <ClCompile Include="crunch\crn_miniz.cpp" />
+    <ClCompile Include="crunch\crn_mipmapped_texture.cpp" />
+    <ClCompile Include="crunch\crn_pixel_format.cpp" />
+    <ClCompile Include="crunch\crn_platform.cpp" />
+    <ClCompile Include="crunch\crn_prefix_coding.cpp" />
+    <ClCompile Include="crunch\crn_qdxt1.cpp" />
+    <ClCompile Include="crunch\crn_qdxt5.cpp" />
+    <ClCompile Include="crunch\crn_rand.cpp" />
+    <ClCompile Include="crunch\crn_resampler.cpp" />
+    <ClCompile Include="crunch\crn_resample_filters.cpp" />
+    <ClCompile Include="crunch\crn_rg_etc1.cpp" />
+    <ClCompile Include="crunch\crn_ryg_dxt.cpp" />
+    <ClCompile Include="crunch\crn_sparse_bit_array.cpp" />
+    <ClCompile Include="crunch\crn_stb_image.cpp" />
+    <ClCompile Include="crunch\crn_strutils.cpp" />
+    <ClCompile Include="crunch\crn_symbol_codec.cpp" />
+    <ClCompile Include="crunch\crn_texture_comp.cpp" />
+    <ClCompile Include="crunch\crn_texture_conversion.cpp" />
+    <ClCompile Include="crunch\crn_texture_file_types.cpp" />
+    <ClCompile Include="crunch\crn_threaded_resampler.cpp" />
+    <ClCompile Include="crunch\crn_threading_pthreads.cpp" />
+    <ClCompile Include="crunch\crn_threading_win32.cpp" />
+    <ClCompile Include="crunch\crn_timer.cpp" />
+    <ClCompile Include="crunch\crn_utils.cpp" />
+    <ClCompile Include="crunch\crn_value.cpp" />
+    <ClCompile Include="crunch\crn_vector.cpp" />
+    <ClCompile Include="crunch\crn_zeng.cpp" />
+    <ClCompile Include="crunch\lzma_7zBuf.cpp" />
+    <ClCompile Include="crunch\lzma_7zBuf2.cpp" />
+    <ClCompile Include="crunch\lzma_7zCrc.cpp" />
+    <ClCompile Include="crunch\lzma_7zFile.cpp" />
+    <ClCompile Include="crunch\lzma_7zStream.cpp" />
+    <ClCompile Include="crunch\lzma_Alloc.cpp" />
+    <ClCompile Include="crunch\lzma_Bcj2.cpp" />
+    <ClCompile Include="crunch\lzma_Bra.cpp" />
+    <ClCompile Include="crunch\lzma_Bra86.cpp" />
+    <ClCompile Include="crunch\lzma_BraIA64.cpp" />
+    <ClCompile Include="crunch\lzma_LzFind.cpp" />
+    <ClCompile Include="crunch\lzma_LzFindMt.cpp" />
+    <ClCompile Include="crunch\lzma_LzmaDec.cpp" />
+    <ClCompile Include="crunch\lzma_LzmaEnc.cpp" />
+    <ClCompile Include="crunch\lzma_LzmaLib.cpp" />
+    <ClCompile Include="crunch\lzma_Threads.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="crunch\crn_arealist.h" />
+    <ClInclude Include="crunch\crn_assert.h" />
+    <ClInclude Include="crunch\crn_atomics.h" />
+    <ClInclude Include="crunch\crn_buffer_stream.h" />
+    <ClInclude Include="crunch\crn_cfile_stream.h" />
+    <ClInclude Include="crunch\crn_checksum.h" />
+    <ClInclude Include="crunch\crn_clusterizer.h" />
+    <ClInclude Include="crunch\crn_color.h" />
+    <ClInclude Include="crunch\crn_colorized_console.h" />
+    <ClInclude Include="crunch\crn_command_line_params.h" />
+    <ClInclude Include="crunch\crn_comp.h" />
+    <ClInclude Include="crunch\crn_console.h" />
+    <ClInclude Include="crunch\crn_core.h" />
+    <ClInclude Include="crunch\crn_data_stream.h" />
+    <ClInclude Include="crunch\crn_data_stream_serializer.h" />
+    <ClInclude Include="crunch\crn_dds_comp.h" />
+    <ClInclude Include="crunch\crn_dxt.h" />
+    <ClInclude Include="crunch\crn_dxt1.h" />
+    <ClInclude Include="crunch\crn_dxt5a.h" />
+    <ClInclude Include="crunch\crn_dxt_endpoint_refiner.h" />
+    <ClInclude Include="crunch\crn_dxt_fast.h" />
+    <ClInclude Include="crunch\crn_dxt_hc.h" />
+    <ClInclude Include="crunch\crn_dxt_hc_common.h" />
+    <ClInclude Include="crunch\crn_dxt_image.h" />
+    <ClInclude Include="crunch\crn_dynamic_stream.h" />
+    <ClInclude Include="crunch\crn_dynamic_string.h" />
+    <ClInclude Include="crunch\crn_etc.h" />
+    <ClInclude Include="crunch\crn_file_utils.h" />
+    <ClInclude Include="crunch\crn_find_files.h" />
+    <ClInclude Include="crunch\crn_freeimage_image_utils.h" />
+    <ClInclude Include="crunch\crn_hash.h" />
+    <ClInclude Include="crunch\crn_hash_map.h" />
+    <ClInclude Include="crunch\crn_helpers.h" />
+    <ClInclude Include="crunch\crn_huffman_codes.h" />
+    <ClInclude Include="crunch\crn_image.h" />
+    <ClInclude Include="crunch\crn_image_utils.h" />
+    <ClInclude Include="crunch\crn_intersect.h" />
+    <ClInclude Include="crunch\crn_jpgd.h" />
+    <ClInclude Include="crunch\crn_jpge.h" />
+    <ClInclude Include="crunch\crn_ktx_texture.h" />
+    <ClInclude Include="crunch\crn_lzma_codec.h" />
+    <ClInclude Include="crunch\crn_math.h" />
+    <ClInclude Include="crunch\crn_matrix.h" />
+    <ClInclude Include="crunch\crn_mem.h" />
+    <ClInclude Include="crunch\crn_miniz.h" />
+    <ClInclude Include="crunch\crn_mipmapped_texture.h" />
+    <ClInclude Include="crunch\crn_packed_uint.h" />
+    <ClInclude Include="crunch\crn_pixel_format.h" />
+    <ClInclude Include="crunch\crn_platform.h" />
+    <ClInclude Include="crunch\crn_prefix_coding.h" />
+    <ClInclude Include="crunch\crn_qdxt1.h" />
+    <ClInclude Include="crunch\crn_qdxt5.h" />
+    <ClInclude Include="crunch\crn_radix_sort.h" />
+    <ClInclude Include="crunch\crn_rand.h" />
+    <ClInclude Include="crunch\crn_ray.h" />
+    <ClInclude Include="crunch\crn_rect.h" />
+    <ClInclude Include="crunch\crn_resampler.h" />
+    <ClInclude Include="crunch\crn_resample_filters.h" />
+    <ClInclude Include="crunch\crn_rg_etc1.h" />
+    <ClInclude Include="crunch\crn_ryg_dxt.hpp" />
+    <ClInclude Include="crunch\crn_ryg_types.hpp" />
+    <ClInclude Include="crunch\crn_sparse_array.h" />
+    <ClInclude Include="crunch\crn_sparse_bit_array.h" />
+    <ClInclude Include="crunch\crn_strutils.h" />
+    <ClInclude Include="crunch\crn_symbol_codec.h" />
+    <ClInclude Include="crunch\crn_texture_comp.h" />
+    <ClInclude Include="crunch\crn_texture_conversion.h" />
+    <ClInclude Include="crunch\crn_texture_file_types.h" />
+    <ClInclude Include="crunch\crn_threaded_clusterizer.h" />
+    <ClInclude Include="crunch\crn_threaded_resampler.h" />
+    <ClInclude Include="crunch\crn_threading.h" />
+    <ClInclude Include="crunch\crn_threading_null.h" />
+    <ClInclude Include="crunch\crn_threading_pthreads.h" />
+    <ClInclude Include="crunch\crn_threading_win32.h" />
+    <ClInclude Include="crunch\crn_timer.h" />
+    <ClInclude Include="crunch\crn_traits.h" />
+    <ClInclude Include="crunch\crn_tree_clusterizer.h" />
+    <ClInclude Include="crunch\crn_types.h" />
+    <ClInclude Include="crunch\crn_utils.h" />
+    <ClInclude Include="crunch\crn_value.h" />
+    <ClInclude Include="crunch\crn_vec.h" />
+    <ClInclude Include="crunch\crn_vector.h" />
+    <ClInclude Include="crunch\crn_vector2d.h" />
+    <ClInclude Include="crunch\crn_vec_interval.h" />
+    <ClInclude Include="crunch\crn_winhdr.h" />
+    <ClInclude Include="crunch\crn_zeng.h" />
+    <ClInclude Include="crunch\lzham_timer.h" />
+    <ClInclude Include="crunch\lzham_win32_threading.h" />
+    <ClInclude Include="crunch\lzma_7zBuf.h" />
+    <ClInclude Include="crunch\lzma_7zCrc.h" />
+    <ClInclude Include="crunch\lzma_7zFile.h" />
+    <ClInclude Include="crunch\lzma_7zVersion.h" />
+    <ClInclude Include="crunch\lzma_Alloc.h" />
+    <ClInclude Include="crunch\lzma_Bcj2.h" />
+    <ClInclude Include="crunch\lzma_Bra.h" />
+    <ClInclude Include="crunch\lzma_CpuArch.h" />
+    <ClInclude Include="crunch\lzma_LzFind.h" />
+    <ClInclude Include="crunch\lzma_LzFindMt.h" />
+    <ClInclude Include="crunch\lzma_LzHash.h" />
+    <ClInclude Include="crunch\lzma_LzmaDec.h" />
+    <ClInclude Include="crunch\lzma_LzmaEnc.h" />
+    <ClInclude Include="crunch\lzma_LzmaLib.h" />
+    <ClInclude Include="crunch\lzma_MyVersion.h" />
+    <ClInclude Include="crunch\lzma_Threads.h" />
+    <ClInclude Include="crunch\lzma_Types.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{b0491535-3ba3-4788-ac39-dbd982c8dc14}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>libcrn</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>..\lib\x86\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>..\libd\x86\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>..\libd\x64\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>..\lib\x64\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

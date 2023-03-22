@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Graphics">
+      <UniqueIdentifier>{5716048e-5307-47f7-88d8-8afcac8faa8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Images">
+      <UniqueIdentifier>{01136408-fccc-4770-ac70-6777a428fe4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Internal">
+      <UniqueIdentifier>{b9e7b06d-b411-4709-96ab-5eb7ada55891}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Memory">
+      <UniqueIdentifier>{65d485f6-249d-4335-9a07-cdc78e854db9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Threading">
+      <UniqueIdentifier>{d89cb1c5-0940-4b51-87fe-b18ad9c53602}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility">
+      <UniqueIdentifier>{6c88c501-a0d0-423e-ab4b-cd8d2f03e0f1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\source\Graphics\converttexture.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Images\stbimage_wrapper.cpp">
+      <Filter>Images</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Images\texture_data.cpp">
+      <Filter>Images</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Internal\casecorrectpath.cpp">
+      <Filter>Internal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Internal\checksum.cpp">
+      <Filter>Internal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Internal\common.cpp">
+      <Filter>Internal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Internal\datemodified.cpp">
+      <Filter>Internal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Internal\filesystem.cpp">
+      <Filter>Internal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Internal\modid.cpp">
+      <Filter>Internal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Internal\path.cpp">
+      <Filter>Internal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Compat\processpool.cpp">
+      <Filter>Internal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Memory\allocation.cpp">
+      <Filter>Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Memory\bitarray.cpp">
+      <Filter>Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Memory\block_allocator.cpp">
+      <Filter>Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Memory\blockallocation.cpp">
+      <Filter>Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Memory\stack_allocator.cpp">
+      <Filter>Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Threading\thread_sanity.cpp">
+      <Filter>Threading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Utility\strings.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Internal\worker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\source\Graphics\converttexture.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Images\stbimage_wrapper.h">
+      <Filter>Images</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Images\texture_data.h">
+      <Filter>Images</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Internal\casecorrectpath.h">
+      <Filter>Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Internal\checksum.h">
+      <Filter>Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Internal\common.h">
+      <Filter>Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Internal\datemodified.h">
+      <Filter>Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Internal\filesystem.h">
+      <Filter>Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Internal\modid.h">
+      <Filter>Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Internal\path.h">
+      <Filter>Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Compat\processpool.h">
+      <Filter>Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Memory\allocation.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Memory\bitarray.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Memory\block_allocator.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Memory\blockallocation.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Memory\stack_allocator.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Threading\thread_sanity.h">
+      <Filter>Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Utility\strings.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Compat\filepath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="icon.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,2687 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="AI">
+      <UniqueIdentifier>{091465ac-e1c9-4211-bef8-384f96ebfd0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Asset">
+      <UniqueIdentifier>{3d88ddfe-6958-46c9-bb11-cf092ccb44c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editors">
+      <UniqueIdentifier>{53019aa8-9959-4c46-a670-5afe0c38d0f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{646cdee1-ee60-4d03-9077-3b16a73e69b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics">
+      <UniqueIdentifier>{8f996afb-1e49-4f04-9128-f5057aec9e81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{6c8ba372-3b33-49cd-b7ad-208acaaf5f01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Images">
+      <UniqueIdentifier>{8051a7c1-2c4e-44e7-a5ed-9705c96968aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Internal">
+      <UniqueIdentifier>{52f58575-db63-4224-bede-36fb85f08b69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JSON">
+      <UniqueIdentifier>{06797adf-566b-4a63-82ed-aa2b7f329dec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{93a06032-7bb5-4de2-ba68-b78a8dc6573c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{3969c505-3c2e-4c74-b927-0f944ba33f07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Memory">
+      <UniqueIdentifier>{48810d7a-b687-456d-b305-9a6d656631af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network">
+      <UniqueIdentifier>{32421e37-b6f8-462e-89c8-ecdeb6134ec5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects">
+      <UniqueIdentifier>{2bb42b8f-4bfd-4038-abd2-c620a42dfdee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Online">
+      <UniqueIdentifier>{1ff97bcd-667f-4356-acd8-9126e5d5cdf9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics">
+      <UniqueIdentifier>{e7261f9a-3c26-47e5-98ec-404a01cd42d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripting">
+      <UniqueIdentifier>{33b0001b-8e2d-4312-acdd-7245ba1962ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sound">
+      <UniqueIdentifier>{fbd92cb1-c9d2-4489-a843-99428f4f8c67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{56fbd02f-af47-4118-a404-2d6acd3b0153}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Steam">
+      <UniqueIdentifier>{17432fa9-e6a9-4a4e-ae8b-99ef258c5f9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Threading">
+      <UniqueIdentifier>{e1e9f6df-2947-4001-9211-8f2d01d67244}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Timing">
+      <UniqueIdentifier>{d51b365a-a24b-4b87-bea9-e420c80146ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Unit Test">
+      <UniqueIdentifier>{34264e67-a40b-452d-962d-97e84b77e266}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UserInput">
+      <UniqueIdentifier>{da954e54-5f23-4f3d-8836-bc99c2c0b01e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility">
+      <UniqueIdentifier>{acd0a5ed-a928-411c-bd0e-4ffc8b5db135}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Wrappers">
+      <UniqueIdentifier>{f6e86bbf-b0ac-43df-989d-62ac88977321}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XML">
+      <UniqueIdentifier>{cfa91744-5031-4fe8-bddb-974188f70f4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Asset\Asset">
+      <UniqueIdentifier>{269c3337-56bf-4c93-bd3e-ff9e7a6185a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Asset\AssetLoader">
+      <UniqueIdentifier>{757e50b3-ed54-4acd-b7d3-f760b2fa2891}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Basic">
+      <UniqueIdentifier>{855d0425-692e-4bce-a139-74792a5805f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Steam">
+      <UniqueIdentifier>{ae861226-106d-4e40-8005-76aa114d9d48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Online\Message">
+      <UniqueIdentifier>{15daf311-441e-436e-9cd6-98971d120141}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sound\AudioFilters">
+      <UniqueIdentifier>{99908067-0392-427a-8a33-a13c5bbbaef6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sound\Loader">
+      <UniqueIdentifier>{6eb9467f-190a-46a7-8860-8d741a8777dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XML\Parsers">
+      <UniqueIdentifier>{2fcbfc44-9d01-4926-98d7-592fb21e87aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripting\anglescript">
+      <UniqueIdentifier>{06fd7bf2-25a8-4272-abc3-22e6439614e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripting\anglescript\add_on">
+      <UniqueIdentifier>{2ddc327a-a75a-4499-9911-78a2eb80403a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripting\anglescript\add_on\debugger">
+      <UniqueIdentifier>{7aa067a4-6432-4b6a-8d06-74787761696e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripting\anglescript\add_on\scriptarray">
+      <UniqueIdentifier>{7c7d4065-b224-45aa-a6da-c763dd708f4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripting\anglescript\add_on\scriptdicitionary">
+      <UniqueIdentifier>{320163a2-5f7d-4047-ae8a-e447bf475244}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripting\anglescript\add_on\scripthelper">
+      <UniqueIdentifier>{c94bd55e-ff0c-4d1e-af05-6562ada5c359}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripting\anglescript\add_on\scriptstdstring">
+      <UniqueIdentifier>{449437ce-18b2-4599-aa2c-8423a62acd43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI">
+      <UniqueIdentifier>{5e6b8931-a53a-4928-bc22-daf3b8fc64c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\dimgui">
+      <UniqueIdentifier>{48e482e2-491c-44eb-9047-51d2ce63d720}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\IMUI">
+      <UniqueIdentifier>{22da361e-2b96-460c-b8f9-8fb7065d8dd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Compat">
+      <UniqueIdentifier>{e8030f32-bf93-4f0d-b53d-a1d78ad5bfd9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\source\Version\git_version.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Version\version.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\AI\chunky_tri_mesh.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\AI\input_geom.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\AI\mesh_loader_obj.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\AI\navmesh.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\AI\navmeshparameters.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\AI\pathfind.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\AI\recast_dump.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\AI\sample.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\AI\sample_interfaces.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\AI\tilemesh.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\AI\tilemeshtestertool.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Asset\Asset\_levelinfo.cpp">
+      <Filter>Asset\Asset</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Asset\Asset\actorfile.cpp">
+      <Filter>Asset\Asset</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Asset\Asset\ambientsounds.cpp">
+      <Filter>Asset\Asset</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Asset\Asset\animation.cpp">
+      <Filter>Asset\Asset</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Asset\Asset\animationeffect.cpp">
+      <Filter>Asset\Asset</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Asset\Asset\attachmentasset.cpp">
+      <Filter>Asset\Asset</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Asset\Asset\attacks.cpp">
+      <Filter>Asset\Asset</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Asset\Asset\averagecolorasset.cpp">
+      <Filter>Asset\Asset</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Asset\Asset\character.cpp">
+      <Filter>Asset\Asset</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Asset\Asset\decalfile.cpp">
+      <Filter>Asset\Asset</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Asset\Asset\filehash.cpp">
+      <Filter>Asset\Asset</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Asset\Asset\fzx_file.cpp">
+      <Filter>Asset\Asset</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Asset\Asset\hotspotfile.cpp">
+      <Filter>Asset\Asset</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Asset\Asset\image_sampler.cpp">
+      <Filter>Asset\Asset</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Asset\Asset\item.cpp">
+      <Filter>Asset\Asset</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Asset\Asset\levelset.cpp">
+      <Filter>Asset\Asset</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Asset\Asset\lipsyncfile.cpp">
+      <Filter>Asset\Asset</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Asset\Asset\material.cpp">
+      <Filter>Asset\Asset</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Asset\Asset\objectfile.cpp">
+      <Filter>Asset\Asset</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Asset\Asset\particletype.cpp">
+      <Filter>Asset\Asset</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Asset\Asset\reactions.cpp">
+      <Filter>Asset\Asset</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Asset\Asset\skeletonasset.cpp">
+      <Filter>Asset\Asset</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Asset\Asset\songlistfile.cpp">
+      <Filter>Asset\Asset</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Asset\Asset\soundgroup.cpp">
+      <Filter>Asset\Asset</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Asset\Asset\soundgroupinfo.cpp">
+      <Filter>Asset\Asset</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Asset\Asset\syncedanimation.cpp">
+      <Filter>Asset\Asset</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Asset\Asset\texture.cpp">
+      <Filter>Asset\Asset</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Asset\Asset\texturedummy.cpp">
+      <Filter>Asset\Asset</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Asset\Asset\voicefile.cpp">
+      <Filter>Asset\Asset</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Asset\AssetLoader\fallbackassetloader.cpp">
+      <Filter>Asset\AssetLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Asset\assetbase.cpp">
+      <Filter>Asset</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Asset\assetinfobase.cpp">
+      <Filter>Asset</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Asset\assetloaderbase.cpp">
+      <Filter>Asset</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Asset\assetloaderrors.cpp">
+      <Filter>Asset</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Asset\assetmanager.cpp">
+      <Filter>Asset</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Asset\assetmanagerthreadhandler.cpp">
+      <Filter>Asset</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Asset\assetref.cpp">
+      <Filter>Asset</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Asset\assettypes.cpp">
+      <Filter>Asset</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Editors\actors_editor.cpp">
+      <Filter>Editors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Editors\editor_tools.cpp">
+      <Filter>Editors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Editors\editor_utilities.cpp">
+      <Filter>Editors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Editors\entity_type.cpp">
+      <Filter>Editors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Editors\map_editor.cpp">
+      <Filter>Editors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Editors\mem_read_entity_description.cpp">
+      <Filter>Editors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Editors\object_sanity_state.cpp">
+      <Filter>Editors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Editors\save_state.cpp">
+      <Filter>Editors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Editors\sky_editor.cpp">
+      <Filter>Editors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Game\attackscript.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Game\avatar_control_manager.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Game\characterscript.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Game\color_tint_component.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Game\detailobjectlayer.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Game\EntityDescription.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Game\level.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Game\levelinfo.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Game\levelset_script.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Game\outofdateinfo.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Game\paths.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Game\reactionscript.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Game\savefile.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Game\savefile_script.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Game\scriptablecampaign.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Game\skyinfo.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Game\terraininfo.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Graphics\animationclient.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Graphics\animationeffectsystem.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Graphics\animationreader.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Graphics\atlasnodetree.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Graphics\Billboard.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Graphics\bloodsurface.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Graphics\bonetransform.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Graphics\bytecolor.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Graphics\camera.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Graphics\ColorWheel.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Graphics\converttexture.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Graphics\csg.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Graphics\cubemap.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Graphics\Cursor.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Graphics\decaltextures.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Graphics\detailmapinfo.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Graphics\detailobjectsurface.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Graphics\drawbatch.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Graphics\dynamiclightcollection.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Graphics\flares.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Graphics\font_renderer.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Graphics\geometry.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Graphics\glstate.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Graphics\graphics.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Graphics\halfedge.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Graphics\heightmap.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Graphics\hudimage.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Graphics\kdtreecluster.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Graphics\lightprobecollection.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Graphics\lipsyncsystem.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Graphics\model.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Graphics\models.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Graphics\modelsurfacewalker.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Graphics\navmeshrenderer.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Graphics\palette.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Graphics\particles.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Graphics\pxdebugdraw.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Graphics\retargetfile.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Graphics\shaders.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Graphics\simplify.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Graphics\skeleton.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Graphics\sky.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Graphics\terrain.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Graphics\text.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Graphics\textureatlas.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Graphics\textureref.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Graphics\textures.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Graphics\vbocontainer.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Graphics\vboringcontainer.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Images\image_export.cpp">
+      <Filter>Images</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Images\nv_image.cpp">
+      <Filter>Images</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Images\nv_image_dds.cpp">
+      <Filter>Images</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Images\stbimage_wrapper.cpp">
+      <Filter>Images</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Images\texture_data.cpp">
+      <Filter>Images</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Internal\assetpreload.cpp">
+      <Filter>Internal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Internal\cachefile.cpp">
+      <Filter>Internal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Internal\callstack.cpp">
+      <Filter>Internal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Internal\casecorrectpath.cpp">
+      <Filter>Internal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Internal\checksum.cpp">
+      <Filter>Internal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Internal\collisiondetection.cpp">
+      <Filter>Internal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Internal\common.cpp">
+      <Filter>Internal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Internal\config.cpp">
+      <Filter>Internal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Internal\crashreport.cpp">
+      <Filter>Internal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Internal\datemodified.cpp">
+      <Filter>Internal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Internal\detect_settings.cpp">
+      <Filter>Internal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Internal\dialogues.cpp">
+      <Filter>Internal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Internal\error.cpp">
+      <Filter>Internal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Internal\file_descriptor.cpp">
+      <Filter>Internal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Internal\filesystem.cpp">
+      <Filter>Internal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Internal\hardware_specs.cpp">
+      <Filter>Internal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Internal\levelxml.cpp">
+      <Filter>Internal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Internal\levelxml_script.cpp">
+      <Filter>Internal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Internal\locale.cpp">
+      <Filter>Internal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Internal\memwrite.cpp">
+      <Filter>Internal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Internal\modid.cpp">
+      <Filter>Internal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Internal\modloading.cpp">
+      <Filter>Internal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Internal\path.cpp">
+      <Filter>Internal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Internal\path_set.cpp">
+      <Filter>Internal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Internal\path_utility.cpp">
+      <Filter>Internal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Internal\profiler.cpp">
+      <Filter>Internal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Internal\returnpathutil.cpp">
+      <Filter>Internal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Internal\snprintf.c">
+      <Filter>Internal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Internal\spawneritem.cpp">
+      <Filter>Internal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Internal\stopwatch.cpp">
+      <Filter>Internal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Internal\textfile.cpp">
+      <Filter>Internal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Internal\timer.cpp">
+      <Filter>Internal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Internal\treestructure.cpp">
+      <Filter>Internal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Internal\varstring.cpp">
+      <Filter>Internal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Internal\win_mem_track.cpp">
+      <Filter>Internal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Internal\zip_util.cpp">
+      <Filter>Internal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\JSON\jsoncpp.cpp">
+      <Filter>JSON</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\JSON\jsonhelper.cpp">
+      <Filter>JSON</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Main\altmain.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Main\engine.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Main\main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Main\scenegraph.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Math\enginemath.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Math\mat3.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Math\mat4.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Math\overgrowth_geometry.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Math\quaternions.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Math\simd_mat4.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Math\triangle.c">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Math\vec2math.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Math\vec3math.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Math\vec4math.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Memory\allocation.cpp">
+      <Filter>Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Memory\bitarray.cpp">
+      <Filter>Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Memory\block_allocator.cpp">
+      <Filter>Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Memory\blockallocation.cpp">
+      <Filter>Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Memory\stack_allocator.cpp">
+      <Filter>Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Memory\ts_block_allocator.cpp">
+      <Filter>Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Network\Basic\basic_net_framework.cpp">
+      <Filter>Network\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Network\Steam\steam_net_framework.cpp">
+      <Filter>Network\Steam</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Network\asnetwork.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Network\net_framework.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Network\net_framework_common.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Network\net_socket_connection.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\GUI\dimgui\chat_window.cpp">
+      <Filter>GUI\dimgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\GUI\dimgui\dimgui.cpp">
+      <Filter>GUI\dimgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\GUI\dimgui\dimgui_graph.cpp">
+      <Filter>GUI\dimgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\GUI\dimgui\editor.cpp">
+      <Filter>GUI\dimgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\GUI\dimgui\imgui_impl_sdl_gl3.cpp">
+      <Filter>GUI\dimgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\GUI\dimgui\modmenu.cpp">
+      <Filter>GUI\dimgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\GUI\dimgui\settings_screen.cpp">
+      <Filter>GUI\dimgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\GUI\IMUI\im_behaviors.cpp">
+      <Filter>GUI\IMUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\GUI\IMUI\im_container.cpp">
+      <Filter>GUI\IMUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\GUI\IMUI\im_divider.cpp">
+      <Filter>GUI\IMUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\GUI\IMUI\im_element.cpp">
+      <Filter>GUI\IMUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\GUI\IMUI\im_events.cpp">
+      <Filter>GUI\IMUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\GUI\IMUI\im_image.cpp">
+      <Filter>GUI\IMUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\GUI\IMUI\im_selection_list.cpp">
+      <Filter>GUI\IMUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\GUI\IMUI\im_spacer.cpp">
+      <Filter>GUI\IMUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\GUI\IMUI\im_support.cpp">
+      <Filter>GUI\IMUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\GUI\IMUI\im_text.cpp">
+      <Filter>GUI\IMUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\GUI\IMUI\im_tween.cpp">
+      <Filter>GUI\IMUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\GUI\IMUI\imgui.cpp">
+      <Filter>GUI\IMUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\GUI\IMUI\imui.cpp">
+      <Filter>GUI\IMUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\GUI\IMUI\imui_script.cpp">
+      <Filter>GUI\IMUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\GUI\gui.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\GUI\scriptable_ui.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\GUI\widgetframework.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Compat\fileio.cpp">
+      <Filter>Compat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Compat\platformsetup.cpp">
+      <Filter>Compat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Compat\processpool.cpp">
+      <Filter>Compat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Compat\time.cpp">
+      <Filter>Compat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Compat\win\os_dialogs_win.cpp">
+      <Filter>Compat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Compat\win\win_compat.cpp">
+      <Filter>Compat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Compat\win\win_filepath.cpp">
+      <Filter>Compat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Compat\win\win_hardware_info.cpp">
+      <Filter>Compat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Objects\ambientsoundobject.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Objects\cameraobject.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Objects\decalobject.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Objects\dynamiclightobject.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Objects\editorcameraobject.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Objects\envobject.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Objects\envobjectattach.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Objects\group.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Objects\hotspot.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Objects\itemobject.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Objects\itemobjectscriptreader.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Objects\lightprobeobject.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Objects\lightvolume.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Objects\movementobject.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Objects\navmeshconnectionobject.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Objects\navmeshhintobject.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Objects\navmeshregionobject.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Objects\object.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Objects\pathpointobject.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Objects\placeholderobject.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Objects\prefab.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Objects\reflectioncaptureobject.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Objects\riggedobject.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Objects\terrainobject.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Online\Message\angelscript_data.cpp">
+      <Filter>Online\Message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Online\Message\angelscript_object_data.cpp">
+      <Filter>Online\Message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Online\Message\attach_to_message.cpp">
+      <Filter>Online\Message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Online\Message\audio_play_group_priority_message.cpp">
+      <Filter>Online\Message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Online\Message\audio_play_sound_group_gain_message.cpp">
+      <Filter>Online\Message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Online\Message\audio_play_sound_group_message.cpp">
+      <Filter>Online\Message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Online\Message\audio_play_sound_group_relative_gain_message.cpp">
+      <Filter>Online\Message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Online\Message\audio_play_sound_group_relative_message.cpp">
+      <Filter>Online\Message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Online\Message\audio_play_sound_group_voice_message.cpp">
+      <Filter>Online\Message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Online\Message\audio_play_sound_impact_item_message.cpp">
+      <Filter>Online\Message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Online\Message\audio_play_sound_location_message.cpp">
+      <Filter>Online\Message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Online\Message\audio_play_sound_loop_at_location_message.cpp">
+      <Filter>Online\Message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Online\Message\audio_play_sound_loop_message.cpp">
+      <Filter>Online\Message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Online\Message\audio_play_sound_message.cpp">
+      <Filter>Online\Message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Online\Message\camera_transform_message.cpp">
+      <Filter>Online\Message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Online\Message\chat_entry_message.cpp">
+      <Filter>Online\Message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Online\Message\create_entity.cpp">
+      <Filter>Online\Message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Online\Message\cut_line.cpp">
+      <Filter>Online\Message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Online\Message\editor_transform_change.cpp">
+      <Filter>Online\Message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Online\Message\env_object_update.cpp">
+      <Filter>Online\Message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Online\Message\host_session_flag.cpp">
+      <Filter>Online\Message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Online\Message\item_update.cpp">
+      <Filter>Online\Message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Online\Message\material_sound_event.cpp">
+      <Filter>Online\Message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Online\Message\morph_target_update.cpp">
+      <Filter>Online\Message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Online\Message\movement_object_update.cpp">
+      <Filter>Online\Message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Online\Message\online_message_base.cpp">
+      <Filter>Online\Message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Online\Message\pcs_assign_player_id.cpp">
+      <Filter>Online\Message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Online\Message\pcs_build_version_message.cpp">
+      <Filter>Online\Message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Online\Message\pcs_build_version_request_message.cpp">
+      <Filter>Online\Message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Online\Message\pcs_client_parameters_message.cpp">
+      <Filter>Online\Message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Online\Message\pcs_file_transfer_metadata_message.cpp">
+      <Filter>Online\Message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Online\Message\pcs_loading_completed_message.cpp">
+      <Filter>Online\Message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Online\Message\pcs_session_parameters_message.cpp">
+      <Filter>Online\Message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Online\Message\ping.cpp">
+      <Filter>Online\Message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Online\Message\player_input_message.cpp">
+      <Filter>Online\Message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Online\Message\pong.cpp">
+      <Filter>Online\Message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Online\Message\remove_object.cpp">
+      <Filter>Online\Message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Online\Message\remove_player_state.cpp">
+      <Filter>Online\Message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Online\Message\send_level_message.cpp">
+      <Filter>Online\Message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Online\Message\set_avatar_palette.cpp">
+      <Filter>Online\Message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Online\Message\set_object_enabled_message.cpp">
+      <Filter>Online\Message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Online\Message\set_player_state.cpp">
+      <Filter>Online\Message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Online\Message\sp_remove_message.cpp">
+      <Filter>Online\Message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Online\Message\sp_rename_message.cpp">
+      <Filter>Online\Message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Online\Message\sp_string_message.cpp">
+      <Filter>Online\Message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Online\Message\sp_union_message.cpp">
+      <Filter>Online\Message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Online\Message\test_message.cpp">
+      <Filter>Online\Message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Online\Message\timed_slow_motion.cpp">
+      <Filter>Online\Message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Online\Message\whoosh_sound_message.cpp">
+      <Filter>Online\Message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Online\online.cpp">
+      <Filter>Online</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Online\online_client_connection_manager.cpp">
+      <Filter>Online</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Online\online_connection_states.cpp">
+      <Filter>Online</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Online\online_datastructures.cpp">
+      <Filter>Online</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Online\online_file_transfer_handler.cpp">
+      <Filter>Online</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Online\online_message_handler.cpp">
+      <Filter>Online</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Online\online_utility.cpp">
+      <Filter>Online</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Online\package_header.cpp">
+      <Filter>Online</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Online\time_interpolator.cpp">
+      <Filter>Online</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Physics\bulletcollision.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Physics\bulletobject.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Physics\bulletworld.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Physics\physics.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Scripting\angelscript\add_on\debugger\debugger.cpp">
+      <Filter>Scripting\anglescript\add_on\debugger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Scripting\angelscript\add_on\scriptstdstring\scriptstdstring.cpp">
+      <Filter>Scripting\anglescript\add_on\scriptstdstring</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Scripting\angelscript\add_on\scriptstdstring\scriptstdstring_utils.cpp">
+      <Filter>Scripting\anglescript\add_on\scriptstdstring</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Scripting\angelscript\add_on\scripthelper\scripthelper.cpp">
+      <Filter>Scripting\anglescript\add_on\scripthelper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Scripting\angelscript\add_on\scriptdictionary\scriptdictionary.cpp">
+      <Filter>Scripting\anglescript\add_on\scriptdicitionary</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Scripting\angelscript\add_on\scriptarray\scriptarray.cpp">
+      <Filter>Scripting\anglescript\add_on\scriptarray</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Scripting\angelscript\ascollisions.cpp">
+      <Filter>Scripting\anglescript</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Scripting\angelscript\ascontext.cpp">
+      <Filter>Scripting\anglescript</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Scripting\angelscript\ascrashdump.cpp">
+      <Filter>Scripting\anglescript</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Scripting\angelscript\asdebugger.cpp">
+      <Filter>Scripting\anglescript</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Scripting\angelscript\asfuncs.cpp">
+      <Filter>Scripting\anglescript</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Scripting\angelscript\asmodule.cpp">
+      <Filter>Scripting\anglescript</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Scripting\angelscript\asprofiler.cpp">
+      <Filter>Scripting\anglescript</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Scripting\angelscript\scriptstdstring_extend.cpp">
+      <Filter>Scripting\anglescript</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Scripting\scriptfile.cpp">
+      <Filter>Scripting</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Scripting\scriptparams.cpp">
+      <Filter>Scripting</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Sound\AudioFilters\limiter_audio_filter.cpp">
+      <Filter>Sound\AudioFilters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Sound\AudioFilters\transition_mixer.cpp">
+      <Filter>Sound\AudioFilters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Sound\Loader\base_loader.cpp">
+      <Filter>Sound\Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Sound\Loader\ogg_loader.cpp">
+      <Filter>Sound\Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Sound\Loader\void_loader.cpp">
+      <Filter>Sound\Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Sound\al_audio.cpp">
+      <Filter>Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Sound\al_audio_buffer.cpp">
+      <Filter>Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Sound\al_audio_source.cpp">
+      <Filter>Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Sound\ambient_sound.cpp">
+      <Filter>Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Sound\buffer_segment.cpp">
+      <Filter>Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Sound\high_res_buffer_segment.cpp">
+      <Filter>Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Sound\sound.cpp">
+      <Filter>Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Sound\soundplayinfo.cpp">
+      <Filter>Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Sound\soundtrack.cpp">
+      <Filter>Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Sound\threaded_sound_wrapper.cpp">
+      <Filter>Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Steam\steamworks.cpp">
+      <Filter>Steam</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Steam\steamworks_friends.cpp">
+      <Filter>Steam</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Steam\steamworks_matchmaking.cpp">
+      <Filter>Steam</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Steam\steamworks_util.cpp">
+      <Filter>Steam</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Steam\ugc.cpp">
+      <Filter>Steam</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Steam\ugc_id.cpp">
+      <Filter>Steam</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Steam\ugc_item.cpp">
+      <Filter>Steam</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Threading\rand.cpp">
+      <Filter>Threading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Threading\sdl_wrapper.cpp">
+      <Filter>Threading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Threading\thread_name.cpp">
+      <Filter>Threading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Threading\thread_sanity.cpp">
+      <Filter>Threading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Timing\gl_query_perf.cpp">
+      <Filter>Timing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Timing\intel_gl_perf.cpp">
+      <Filter>Timing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Timing\timingevent.cpp">
+      <Filter>Timing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\UnitTests\atlastest.cpp">
+      <Filter>Unit Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\UnitTests\block_allocator_tester.cpp">
+      <Filter>Unit Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\UnitTests\modloading_test.cpp">
+      <Filter>Unit Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\UnitTests\string_test.cpp">
+      <Filter>Unit Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\UnitTests\testmain.cpp">
+      <Filter>Unit Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\UserInput\input.cpp">
+      <Filter>UserInput</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\UserInput\joystick.cpp">
+      <Filter>UserInput</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\UserInput\keyboard.cpp">
+      <Filter>UserInput</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\UserInput\keycommands.cpp">
+      <Filter>UserInput</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\UserInput\keyTranslator.cpp">
+      <Filter>UserInput</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\UserInput\mouse.cpp">
+      <Filter>UserInput</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Utility\_block_allocator.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Utility\binn_util.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Utility\commonregex.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Utility\gl_util.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Utility\hash.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Utility\imgui_macros.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Utility\pcg_basic.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Utility\serialize.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Utility\strings.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Utility\waveform_obj_serializer.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\XML\Parsers\activemodsparser.cpp">
+      <Filter>XML\Parsers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\XML\Parsers\assetloadwarningparser.cpp">
+      <Filter>XML\Parsers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\XML\Parsers\assetmanifestparser.cpp">
+      <Filter>XML\Parsers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\XML\Parsers\jobxmlparser.cpp">
+      <Filter>XML\Parsers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\XML\Parsers\levelassetspreloadparser.cpp">
+      <Filter>XML\Parsers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\XML\Parsers\levelxmlparser.cpp">
+      <Filter>XML\Parsers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\XML\Parsers\manifestparser.cpp">
+      <Filter>XML\Parsers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\XML\Parsers\musicxmlparser.cpp">
+      <Filter>XML\Parsers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\XML\Parsers\xmlparserbase.cpp">
+      <Filter>XML\Parsers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\XML\level_loader.cpp">
+      <Filter>XML</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\XML\xml_helper.cpp">
+      <Filter>XML</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\source\Version\version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\opengl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\AI\chunky_tri_mesh.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\AI\input_geom.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\AI\mesh_loader_obj.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\AI\navmesh.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\AI\navmeshparameters.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\AI\pathfind.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\AI\recast_dump.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\AI\sample.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\AI\sample_interfaces.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\AI\tilemesh.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\AI\tilemeshtestertool.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Asset\Asset\actorfile.h">
+      <Filter>Asset\Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Asset\Asset\ambientsounds.h">
+      <Filter>Asset\Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Asset\Asset\animation.h">
+      <Filter>Asset\Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Asset\Asset\animationeffect.h">
+      <Filter>Asset\Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Asset\Asset\attachmentasset.h">
+      <Filter>Asset\Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Asset\Asset\attacks.h">
+      <Filter>Asset\Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Asset\Asset\averagecolorasset.h">
+      <Filter>Asset\Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Asset\Asset\character.h">
+      <Filter>Asset\Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Asset\Asset\decalfile.h">
+      <Filter>Asset\Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Asset\Asset\filehash.h">
+      <Filter>Asset\Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Asset\Asset\fzx_file.h">
+      <Filter>Asset\Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Asset\Asset\hotspotfile.h">
+      <Filter>Asset\Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Asset\Asset\image_sampler.h">
+      <Filter>Asset\Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Asset\Asset\item.h">
+      <Filter>Asset\Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Asset\Asset\levelinfo.h">
+      <Filter>Asset\Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Asset\Asset\levelset.h">
+      <Filter>Asset\Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Asset\Asset\lipsyncfile.h">
+      <Filter>Asset\Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Asset\Asset\material.h">
+      <Filter>Asset\Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Asset\Asset\objectfile.h">
+      <Filter>Asset\Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Asset\Asset\particletype.h">
+      <Filter>Asset\Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Asset\Asset\reactions.h">
+      <Filter>Asset\Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Asset\Asset\skeletonasset.h">
+      <Filter>Asset\Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Asset\Asset\songlistfile.h">
+      <Filter>Asset\Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Asset\Asset\soundgroup.h">
+      <Filter>Asset\Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Asset\Asset\soundgroupinfo.h">
+      <Filter>Asset\Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Asset\Asset\spawnpointinfo.h">
+      <Filter>Asset\Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Asset\Asset\syncedanimation.h">
+      <Filter>Asset\Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Asset\Asset\texture.h">
+      <Filter>Asset\Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Asset\Asset\texturedummy.h">
+      <Filter>Asset\Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Asset\Asset\voicefile.h">
+      <Filter>Asset\Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Asset\AssetLoader\fallbackassetloader.h">
+      <Filter>Asset\AssetLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Asset\assetbase.h">
+      <Filter>Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Asset\assetdatabase.h">
+      <Filter>Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Asset\assetinfobase.h">
+      <Filter>Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Asset\assetloaderbase.h">
+      <Filter>Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Asset\assetloaderrors.h">
+      <Filter>Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Asset\assetmanager.h">
+      <Filter>Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Asset\assetmanagerthreadhandler.h">
+      <Filter>Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Asset\assetref.h">
+      <Filter>Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Asset\assets.h">
+      <Filter>Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Asset\assettypes.h">
+      <Filter>Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Editors\actors_editor.h">
+      <Filter>Editors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Editors\editor_tools.h">
+      <Filter>Editors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Editors\editor_types.h">
+      <Filter>Editors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Editors\editor_utilities.h">
+      <Filter>Editors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Editors\entity_type.h">
+      <Filter>Editors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Editors\map_editor.h">
+      <Filter>Editors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Editors\mem_read_entity_description.h">
+      <Filter>Editors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Editors\object_sanity_state.h">
+      <Filter>Editors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Editors\save_state.h">
+      <Filter>Editors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Editors\sky_editor.h">
+      <Filter>Editors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Game\attachment_type.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Game\attackscript.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Game\avatar_control_manager.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Game\characterscript.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Game\color_tint_component.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Game\component.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Game\connection_closed_reason.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Game\detailobjectlayer.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Game\EntityDescription.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Game\hardcoded_assets.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Game\level.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Game\levelinfo.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Game\levelset_script.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Game\loadingscreeninfo.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Game\outofdateinfo.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Game\paths.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Game\reactionscript.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Game\savefile.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Game\savefile_script.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Game\scriptablecampaign.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Game\skyinfo.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Game\terraininfo.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Graphics\animationclient.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Graphics\animationeffectsystem.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Graphics\animationflags.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Graphics\animationreader.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Graphics\atlasnodetree.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Graphics\Billboard.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Graphics\bloodsurface.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Graphics\bonetransform.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Graphics\bytecolor.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Graphics\camera.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Graphics\ColorWheel.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Graphics\converttexture.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Graphics\csg.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Graphics\cubemap.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Graphics\Cursor.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Graphics\decaltextures.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Graphics\detailmapinfo.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Graphics\detailobjectsurface.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Graphics\drawbatch.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Graphics\dynamiclightcollection.hpp">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Graphics\flares.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Graphics\font_renderer.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Graphics\geometry.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Graphics\glstate.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Graphics\graphics.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Graphics\halfedge.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Graphics\heightmap.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Graphics\hudimage.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Graphics\ikbone.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Graphics\kdtreecluster.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Graphics\lightprobecollection.hpp">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Graphics\lipsyncsystem.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Graphics\model.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Graphics\models.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Graphics\modelsurfacewalker.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Graphics\navmeshrenderer.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Graphics\palette.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Graphics\particles.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Graphics\pxdebugdraw.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Graphics\retargetfile.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Graphics\shaders.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Graphics\simplify.hpp">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Graphics\simplify_types.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Graphics\skeleton.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Graphics\sky.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Graphics\terrain.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Graphics\text.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Graphics\textureatlas.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Graphics\textureref.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Graphics\textures.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Graphics\vbocontainer.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Graphics\vboenums.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Graphics\vboringcontainer.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Images\ddsformat.hpp">
+      <Filter>Images</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Images\image_export.hpp">
+      <Filter>Images</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Images\nv_image.h">
+      <Filter>Images</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Images\stbimage_wrapper.h">
+      <Filter>Images</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Images\texture_data.h">
+      <Filter>Images</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Internal\assetmanifest.h">
+      <Filter>Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Internal\assetpreload.h">
+      <Filter>Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Internal\cachefile.h">
+      <Filter>Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Internal\callstack.h">
+      <Filter>Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Internal\casecorrectpath.h">
+      <Filter>Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Internal\checksum.h">
+      <Filter>Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Internal\collisiondetection.h">
+      <Filter>Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Internal\comma_separated_list.h">
+      <Filter>Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Internal\common.h">
+      <Filter>Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Internal\config.h">
+      <Filter>Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Internal\crashreport.h">
+      <Filter>Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Internal\datemodified.h">
+      <Filter>Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Internal\detect_settings.h">
+      <Filter>Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Internal\dialogues.h">
+      <Filter>Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Internal\error.h">
+      <Filter>Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Internal\error_response.h">
+      <Filter>Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Internal\file_descriptor.h">
+      <Filter>Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Internal\filesystem.h">
+      <Filter>Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Internal\hardware_specs.h">
+      <Filter>Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Internal\integer.h">
+      <Filter>Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Internal\levelxml.h">
+      <Filter>Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Internal\levelxml_script.h">
+      <Filter>Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Internal\locale.h">
+      <Filter>Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Internal\memwrite.h">
+      <Filter>Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Internal\message.h">
+      <Filter>Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Internal\modid.h">
+      <Filter>Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Internal\modloading.h">
+      <Filter>Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Internal\path.h">
+      <Filter>Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Internal\path_set.h">
+      <Filter>Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Internal\path_utility.h">
+      <Filter>Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Internal\profiler.h">
+      <Filter>Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Internal\referencecounter.h">
+      <Filter>Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Internal\returnpathutil.h">
+      <Filter>Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Internal\scoped_buffer.h">
+      <Filter>Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Internal\SIMD.h">
+      <Filter>Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Internal\snprintf.h">
+      <Filter>Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Internal\spawneritem.h">
+      <Filter>Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Internal\stopwatch.h">
+      <Filter>Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Internal\textfile.h">
+      <Filter>Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Internal\timer.h">
+      <Filter>Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Internal\treestructure.h">
+      <Filter>Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Internal\varstring.h">
+      <Filter>Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Internal\win_mem_track.h">
+      <Filter>Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Internal\zip_util.h">
+      <Filter>Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\JSON\json.h">
+      <Filter>JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\JSON\json-forwards.h">
+      <Filter>JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\JSON\jsonhelper.h">
+      <Filter>JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Main\altmain.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Main\debuglevelload.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Main\engine.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Main\scenegraph.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Math\enginemath.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Math\ivec2.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Math\ivec2math.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Math\ivec3.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Math\ivec4.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Math\mat3.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Math\mat4.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Math\overgrowth_geometry.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Math\quaternions.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Math\simd_mat4.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Math\triangle.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Math\vec2.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Math\vec2math.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Math\vec3.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Math\vec3math.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Math\vec4.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Math\vec4math.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Memory\allocation.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Memory\bitarray.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Memory\block_allocator.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Memory\blockallocation.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Memory\stack_allocator.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Memory\ts_block_allocator.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Network\Basic\basic_net_framework.h">
+      <Filter>Network\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Network\Steam\steam_net_framework.h">
+      <Filter>Network\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Network\asnetwork.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Network\net_framework.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Network\net_framework_common.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Network\net_socket_connection.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\GUI\dimgui\chat_window.h">
+      <Filter>GUI\dimgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\GUI\dimgui\dimgui.h">
+      <Filter>GUI\dimgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\GUI\dimgui\dimgui_graph.h">
+      <Filter>GUI\dimgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\GUI\dimgui\editor.h">
+      <Filter>GUI\dimgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\GUI\dimgui\imgui_impl_sdl_gl3.h">
+      <Filter>GUI\dimgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\GUI\dimgui\modmenu.h">
+      <Filter>GUI\dimgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\GUI\dimgui\settings_screen.h">
+      <Filter>GUI\dimgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\GUI\IMUI\im_behaviors.h">
+      <Filter>GUI\IMUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\GUI\IMUI\im_container.h">
+      <Filter>GUI\IMUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\GUI\IMUI\im_divider.h">
+      <Filter>GUI\IMUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\GUI\IMUI\im_element.h">
+      <Filter>GUI\IMUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\GUI\IMUI\im_events.h">
+      <Filter>GUI\IMUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\GUI\IMUI\im_image.h">
+      <Filter>GUI\IMUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\GUI\IMUI\im_message.h">
+      <Filter>GUI\IMUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\GUI\IMUI\im_selection_list.h">
+      <Filter>GUI\IMUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\GUI\IMUI\im_spacer.h">
+      <Filter>GUI\IMUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\GUI\IMUI\im_support.h">
+      <Filter>GUI\IMUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\GUI\IMUI\im_text.h">
+      <Filter>GUI\IMUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\GUI\IMUI\im_tween.h">
+      <Filter>GUI\IMUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\GUI\IMUI\imgui.h">
+      <Filter>GUI\IMUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\GUI\IMUI\imui.h">
+      <Filter>GUI\IMUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\GUI\IMUI\imui_script.h">
+      <Filter>GUI\IMUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\GUI\IMUI\imui_state.h">
+      <Filter>GUI\IMUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\GUI\gui.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\GUI\scriptable_ui.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\GUI\widgetframework.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Compat\compat.h">
+      <Filter>Compat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Compat\fileio.h">
+      <Filter>Compat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Compat\filepath.h">
+      <Filter>Compat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Compat\hardware_info.h">
+      <Filter>Compat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Compat\os_dialogs.h">
+      <Filter>Compat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Compat\platform.h">
+      <Filter>Compat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Compat\platformsetup.h">
+      <Filter>Compat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Compat\processpool.h">
+      <Filter>Compat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Compat\time.h">
+      <Filter>Compat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Compat\win\win_compat.h">
+      <Filter>Compat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Objects\ambientsoundobject.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Objects\cameraobject.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Objects\decalobject.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Objects\dynamiclightobject.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Objects\editorcameraobject.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Objects\envobject.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Objects\envobjectattach.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Objects\envobjecttype.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Objects\group.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Objects\hotspot.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Objects\itemobject.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Objects\itemobjectscriptreader.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Objects\lightprobeobject.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Objects\lightvolume.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Objects\movementobject.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Objects\navmeshconnectionobject.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Objects\navmeshhintobject.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Objects\navmeshregionobject.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Objects\object.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Objects\object_msg.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Objects\pathpointobject.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Objects\placeholderobject.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Objects\prefab.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Objects\reflectioncaptureobject.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Objects\riggedobject.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Objects\softinfo.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Objects\terrainobject.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Online\Message\angelscript_data.h">
+      <Filter>Online\Message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Online\Message\angelscript_object_data.h">
+      <Filter>Online\Message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Online\Message\attach_to_message.h">
+      <Filter>Online\Message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Online\Message\audio_play_group_priority_message.h">
+      <Filter>Online\Message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Online\Message\audio_play_sound_group_gain_message.h">
+      <Filter>Online\Message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Online\Message\audio_play_sound_group_message.h">
+      <Filter>Online\Message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Online\Message\audio_play_sound_group_relative_gain_message.h">
+      <Filter>Online\Message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Online\Message\audio_play_sound_group_relative_message.h">
+      <Filter>Online\Message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Online\Message\audio_play_sound_group_voice_message.h">
+      <Filter>Online\Message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Online\Message\audio_play_sound_impact_item_message.h">
+      <Filter>Online\Message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Online\Message\audio_play_sound_location_message.h">
+      <Filter>Online\Message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Online\Message\audio_play_sound_loop_at_location_message.h">
+      <Filter>Online\Message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Online\Message\audio_play_sound_loop_message.h">
+      <Filter>Online\Message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Online\Message\audio_play_sound_message.h">
+      <Filter>Online\Message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Online\Message\camera_transform_message.h">
+      <Filter>Online\Message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Online\Message\chat_entry_message.h">
+      <Filter>Online\Message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Online\Message\create_entity.h">
+      <Filter>Online\Message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Online\Message\cut_line.h">
+      <Filter>Online\Message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Online\Message\editor_transform_change.h">
+      <Filter>Online\Message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Online\Message\env_object_update.h">
+      <Filter>Online\Message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Online\Message\host_session_flag.h">
+      <Filter>Online\Message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Online\Message\item_update.h">
+      <Filter>Online\Message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Online\Message\material_sound_event.h">
+      <Filter>Online\Message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Online\Message\morph_target_update.h">
+      <Filter>Online\Message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Online\Message\movement_object_update.h">
+      <Filter>Online\Message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Online\Message\online_message_base.h">
+      <Filter>Online\Message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Online\Message\pcs_assign_player_id.h">
+      <Filter>Online\Message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Online\Message\pcs_build_version_message.h">
+      <Filter>Online\Message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Online\Message\pcs_build_version_request_message.h">
+      <Filter>Online\Message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Online\Message\pcs_client_parameters_message.h">
+      <Filter>Online\Message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Online\Message\pcs_file_transfer_metadata_message.h">
+      <Filter>Online\Message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Online\Message\pcs_loading_completed_message.h">
+      <Filter>Online\Message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Online\Message\pcs_session_parameters_message.h">
+      <Filter>Online\Message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Online\Message\ping.h">
+      <Filter>Online\Message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Online\Message\player_input_message.h">
+      <Filter>Online\Message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Online\Message\pong.h">
+      <Filter>Online\Message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Online\Message\remove_object.h">
+      <Filter>Online\Message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Online\Message\remove_player_state.h">
+      <Filter>Online\Message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Online\Message\send_level_message.h">
+      <Filter>Online\Message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Online\Message\set_avatar_palette.h">
+      <Filter>Online\Message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Online\Message\set_object_enabled_message.h">
+      <Filter>Online\Message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Online\Message\set_player_state.h">
+      <Filter>Online\Message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Online\Message\sp_remove_message.h">
+      <Filter>Online\Message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Online\Message\sp_rename_message.h">
+      <Filter>Online\Message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Online\Message\sp_string_message.h">
+      <Filter>Online\Message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Online\Message\sp_union_message.h">
+      <Filter>Online\Message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Online\Message\test_message.h">
+      <Filter>Online\Message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Online\Message\timed_slow_motion.h">
+      <Filter>Online\Message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Online\Message\whoosh_sound_message.h">
+      <Filter>Online\Message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Online\online.h">
+      <Filter>Online</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Online\online_client_connection_manager.h">
+      <Filter>Online</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Online\online_connection_states.h">
+      <Filter>Online</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Online\online_datastructures.h">
+      <Filter>Online</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Online\online_file_transfer_handler.h">
+      <Filter>Online</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Online\online_message_handler.h">
+      <Filter>Online</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Online\online_peer.h">
+      <Filter>Online</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Online\online_session.h">
+      <Filter>Online</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Online\online_utility.h">
+      <Filter>Online</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Online\package_header.h">
+      <Filter>Online</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Online\state_machine.h">
+      <Filter>Online</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Online\time_interpolator.h">
+      <Filter>Online</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Physics\bulletcollision.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Physics\bulletobject.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Physics\bulletworld.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Physics\physics.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Scripting\angelscript\add_on\debugger\debugger.h">
+      <Filter>Scripting\anglescript\add_on\debugger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Scripting\angelscript\add_on\scriptstdstring\scriptstdstring.h">
+      <Filter>Scripting\anglescript\add_on\scriptstdstring</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Scripting\angelscript\add_on\scripthelper\scripthelper.h">
+      <Filter>Scripting\anglescript\add_on\scripthelper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Scripting\angelscript\add_on\scriptdictionary\scriptdictionary.h">
+      <Filter>Scripting\anglescript\add_on\scriptdicitionary</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Scripting\angelscript\add_on\scriptarray\scriptarray.h">
+      <Filter>Scripting\anglescript\add_on\scriptarray</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Scripting\angelscript\asarglist.h">
+      <Filter>Scripting\anglescript</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Scripting\angelscript\ascollisions.h">
+      <Filter>Scripting\anglescript</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Scripting\angelscript\ascontext.h">
+      <Filter>Scripting\anglescript</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Scripting\angelscript\ascrashdump.h">
+      <Filter>Scripting\anglescript</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Scripting\angelscript\asdebugger.h">
+      <Filter>Scripting\anglescript</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Scripting\angelscript\asfuncs.h">
+      <Filter>Scripting\anglescript</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Scripting\angelscript\asmodule.h">
+      <Filter>Scripting\anglescript</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Scripting\angelscript\asprofiler.h">
+      <Filter>Scripting\anglescript</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Scripting\angelscript\scriptstdstring_extend.h">
+      <Filter>Scripting\anglescript</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Scripting\scriptfile.h">
+      <Filter>Scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Scripting\scriptlogging.h">
+      <Filter>Scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Scripting\scriptparams.h">
+      <Filter>Scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Sound\AudioFilters\limiter_audio_filter.h">
+      <Filter>Sound\AudioFilters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Sound\AudioFilters\transition_mixer.h">
+      <Filter>Sound\AudioFilters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Sound\Loader\base_loader.h">
+      <Filter>Sound\Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Sound\Loader\ogg_loader.h">
+      <Filter>Sound\Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Sound\Loader\void_loader.h">
+      <Filter>Sound\Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Sound\al_audio.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Sound\al_audio_buffer.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Sound\al_audio_source.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Sound\ambient_sound.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Sound\ambienttriangle.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Sound\buffer_segment.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Sound\high_res_buffer_segment.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Sound\sound.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Sound\soundlogging.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Sound\soundplayinfo.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Sound\soundtrack.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Sound\threaded_sound_wrapper.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Steam\steam_appid.h">
+      <Filter>Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Steam\steamworks.h">
+      <Filter>Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Steam\steamworks_friends.h">
+      <Filter>Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Steam\steamworks_matchmaking.h">
+      <Filter>Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Steam\steamworks_util.h">
+      <Filter>Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Steam\ugc.h">
+      <Filter>Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Steam\ugc_id.h">
+      <Filter>Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Steam\ugc_item.h">
+      <Filter>Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Threading\rand.h">
+      <Filter>Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Threading\sdl_wrapper.h">
+      <Filter>Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Threading\thread_name.h">
+      <Filter>Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Threading\thread_sanity.h">
+      <Filter>Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Threading\threadsafequeue.h">
+      <Filter>Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Timing\gl_query_perf.h">
+      <Filter>Timing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Timing\intel_gl_perf.h">
+      <Filter>Timing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Timing\timestamp.h">
+      <Filter>Timing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Timing\timingevent.h">
+      <Filter>Timing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\UnitTests\testmain.h">
+      <Filter>Unit Test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\UserInput\input.h">
+      <Filter>UserInput</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\UserInput\joystick.h">
+      <Filter>UserInput</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\UserInput\keyboard.h">
+      <Filter>UserInput</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\UserInput\keycommands.h">
+      <Filter>UserInput</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\UserInput\keyTranslator.h">
+      <Filter>UserInput</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\UserInput\mouse.h">
+      <Filter>UserInput</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Utility\assert.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Utility\binn_util.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Utility\block_allocator.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Utility\commonregex.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Utility\compiler_macros.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Utility\disallow_copy_and_assign.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Utility\fixed_array.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Utility\fixed_heap_string.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Utility\fixed_string.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Utility\flat_hash_map.hpp">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Utility\fqms_simplify.hpp">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Utility\gl_util.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Utility\hash.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Utility\ieee.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Utility\imgui_macros.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Utility\math_macro.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Utility\pcg_basic.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Utility\sdl_util.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Utility\serialize.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Utility\set.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Utility\simple_vector.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Utility\stacktrace.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Utility\strings.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Utility\timing.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Utility\waveform_obj_serializer.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Wrappers\crn.h">
+      <Filter>Wrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Wrappers\glm.h">
+      <Filter>Wrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Wrappers\linux_gtk.h">
+      <Filter>Wrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Wrappers\openal.h">
+      <Filter>Wrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Wrappers\tut.h">
+      <Filter>Wrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Wrappers\vorbis.h">
+      <Filter>Wrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\XML\Parsers\activemodsparser.h">
+      <Filter>XML\Parsers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\XML\Parsers\assetloadwarningparser.h">
+      <Filter>XML\Parsers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\XML\Parsers\assetmanifestparser.h">
+      <Filter>XML\Parsers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\XML\Parsers\jobxmlparser.h">
+      <Filter>XML\Parsers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\XML\Parsers\levelassetspreloadparser.h">
+      <Filter>XML\Parsers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\XML\Parsers\levelxmlparser.h">
+      <Filter>XML\Parsers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\XML\Parsers\manifestparser.h">
+      <Filter>XML\Parsers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\XML\Parsers\musicxmlparser.h">
+      <Filter>XML\Parsers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\XML\Parsers\xmlparserbase.h">
+      <Filter>XML\Parsers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\XML\level_loader.h">
+      <Filter>XML</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\XML\xml_helper.h">
+      <Filter>XML</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="icon.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\source\Internal\error.mm">
+      <Filter>Internal</Filter>
+    </None>
+  </ItemGroup>
+</Project>

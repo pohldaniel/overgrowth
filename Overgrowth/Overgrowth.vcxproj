@@ -1,0 +1,1026 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\source\AI\chunky_tri_mesh.cpp" />
+    <ClCompile Include="..\source\AI\input_geom.cpp" />
+    <ClCompile Include="..\source\AI\mesh_loader_obj.cpp" />
+    <ClCompile Include="..\source\AI\navmesh.cpp" />
+    <ClCompile Include="..\source\AI\navmeshparameters.cpp" />
+    <ClCompile Include="..\source\AI\pathfind.cpp" />
+    <ClCompile Include="..\source\AI\recast_dump.cpp" />
+    <ClCompile Include="..\source\AI\sample.cpp" />
+    <ClCompile Include="..\source\AI\sample_interfaces.cpp" />
+    <ClCompile Include="..\source\AI\tilemesh.cpp" />
+    <ClCompile Include="..\source\AI\tilemeshtestertool.cpp" />
+    <ClCompile Include="..\source\Asset\assetbase.cpp" />
+    <ClCompile Include="..\source\Asset\assetinfobase.cpp" />
+    <ClCompile Include="..\source\Asset\assetloaderbase.cpp" />
+    <ClCompile Include="..\source\Asset\assetloaderrors.cpp" />
+    <ClCompile Include="..\source\Asset\AssetLoader\fallbackassetloader.cpp" />
+    <ClCompile Include="..\source\Asset\assetmanager.cpp" />
+    <ClCompile Include="..\source\Asset\assetmanagerthreadhandler.cpp" />
+    <ClCompile Include="..\source\Asset\assetref.cpp" />
+    <ClCompile Include="..\source\Asset\assettypes.cpp" />
+    <ClCompile Include="..\source\Asset\Asset\actorfile.cpp" />
+    <ClCompile Include="..\source\Asset\Asset\ambientsounds.cpp" />
+    <ClCompile Include="..\source\Asset\Asset\animation.cpp" />
+    <ClCompile Include="..\source\Asset\Asset\animationeffect.cpp" />
+    <ClCompile Include="..\source\Asset\Asset\attachmentasset.cpp" />
+    <ClCompile Include="..\source\Asset\Asset\attacks.cpp" />
+    <ClCompile Include="..\source\Asset\Asset\averagecolorasset.cpp" />
+    <ClCompile Include="..\source\Asset\Asset\character.cpp" />
+    <ClCompile Include="..\source\Asset\Asset\decalfile.cpp" />
+    <ClCompile Include="..\source\Asset\Asset\filehash.cpp" />
+    <ClCompile Include="..\source\Asset\Asset\fzx_file.cpp" />
+    <ClCompile Include="..\source\Asset\Asset\hotspotfile.cpp" />
+    <ClCompile Include="..\source\Asset\Asset\image_sampler.cpp" />
+    <ClCompile Include="..\source\Asset\Asset\item.cpp" />
+    <ClCompile Include="..\source\Asset\Asset\levelset.cpp" />
+    <ClCompile Include="..\source\Asset\Asset\lipsyncfile.cpp" />
+    <ClCompile Include="..\source\Asset\Asset\material.cpp" />
+    <ClCompile Include="..\source\Asset\Asset\objectfile.cpp" />
+    <ClCompile Include="..\source\Asset\Asset\particletype.cpp" />
+    <ClCompile Include="..\source\Asset\Asset\reactions.cpp" />
+    <ClCompile Include="..\source\Asset\Asset\skeletonasset.cpp" />
+    <ClCompile Include="..\source\Asset\Asset\songlistfile.cpp" />
+    <ClCompile Include="..\source\Asset\Asset\soundgroup.cpp" />
+    <ClCompile Include="..\source\Asset\Asset\soundgroupinfo.cpp" />
+    <ClCompile Include="..\source\Asset\Asset\syncedanimation.cpp" />
+    <ClCompile Include="..\source\Asset\Asset\texture.cpp" />
+    <ClCompile Include="..\source\Asset\Asset\texturedummy.cpp" />
+    <ClCompile Include="..\source\Asset\Asset\voicefile.cpp" />
+    <ClCompile Include="..\source\Asset\Asset\_levelinfo.cpp" />
+    <ClCompile Include="..\source\Compat\fileio.cpp" />
+    <ClCompile Include="..\source\Compat\platformsetup.cpp" />
+    <ClCompile Include="..\source\Compat\processpool.cpp" />
+    <ClCompile Include="..\source\Compat\time.cpp" />
+    <ClCompile Include="..\source\Compat\win\os_dialogs_win.cpp" />
+    <ClCompile Include="..\source\Compat\win\win_compat.cpp" />
+    <ClCompile Include="..\source\Compat\win\win_filepath.cpp" />
+    <ClCompile Include="..\source\Compat\win\win_hardware_info.cpp" />
+    <ClCompile Include="..\source\Editors\actors_editor.cpp" />
+    <ClCompile Include="..\source\Editors\editor_tools.cpp" />
+    <ClCompile Include="..\source\Editors\editor_utilities.cpp" />
+    <ClCompile Include="..\source\Editors\entity_type.cpp" />
+    <ClCompile Include="..\source\Editors\map_editor.cpp" />
+    <ClCompile Include="..\source\Editors\mem_read_entity_description.cpp" />
+    <ClCompile Include="..\source\Editors\object_sanity_state.cpp" />
+    <ClCompile Include="..\source\Editors\save_state.cpp" />
+    <ClCompile Include="..\source\Editors\sky_editor.cpp" />
+    <ClCompile Include="..\source\Game\attackscript.cpp" />
+    <ClCompile Include="..\source\Game\avatar_control_manager.cpp" />
+    <ClCompile Include="..\source\Game\characterscript.cpp" />
+    <ClCompile Include="..\source\Game\color_tint_component.cpp" />
+    <ClCompile Include="..\source\Game\detailobjectlayer.cpp" />
+    <ClCompile Include="..\source\Game\EntityDescription.cpp" />
+    <ClCompile Include="..\source\Game\level.cpp" />
+    <ClCompile Include="..\source\Game\levelinfo.cpp" />
+    <ClCompile Include="..\source\Game\levelset_script.cpp" />
+    <ClCompile Include="..\source\Game\outofdateinfo.cpp" />
+    <ClCompile Include="..\source\Game\paths.cpp" />
+    <ClCompile Include="..\source\Game\reactionscript.cpp" />
+    <ClCompile Include="..\source\Game\savefile.cpp" />
+    <ClCompile Include="..\source\Game\savefile_script.cpp" />
+    <ClCompile Include="..\source\Game\scriptablecampaign.cpp" />
+    <ClCompile Include="..\source\Game\skyinfo.cpp" />
+    <ClCompile Include="..\source\Game\terraininfo.cpp" />
+    <ClCompile Include="..\source\Graphics\animationclient.cpp" />
+    <ClCompile Include="..\source\Graphics\animationeffectsystem.cpp" />
+    <ClCompile Include="..\source\Graphics\animationreader.cpp" />
+    <ClCompile Include="..\source\Graphics\atlasnodetree.cpp" />
+    <ClCompile Include="..\source\Graphics\Billboard.cpp" />
+    <ClCompile Include="..\source\Graphics\bloodsurface.cpp" />
+    <ClCompile Include="..\source\Graphics\bonetransform.cpp" />
+    <ClCompile Include="..\source\Graphics\bytecolor.cpp" />
+    <ClCompile Include="..\source\Graphics\camera.cpp" />
+    <ClCompile Include="..\source\Graphics\ColorWheel.cpp" />
+    <ClCompile Include="..\source\Graphics\converttexture.cpp" />
+    <ClCompile Include="..\source\Graphics\csg.cpp" />
+    <ClCompile Include="..\source\Graphics\cubemap.cpp" />
+    <ClCompile Include="..\source\Graphics\Cursor.cpp" />
+    <ClCompile Include="..\source\Graphics\decaltextures.cpp" />
+    <ClCompile Include="..\source\Graphics\detailmapinfo.cpp" />
+    <ClCompile Include="..\source\Graphics\detailobjectsurface.cpp" />
+    <ClCompile Include="..\source\Graphics\drawbatch.cpp" />
+    <ClCompile Include="..\source\Graphics\dynamiclightcollection.cpp" />
+    <ClCompile Include="..\source\Graphics\flares.cpp" />
+    <ClCompile Include="..\source\Graphics\font_renderer.cpp" />
+    <ClCompile Include="..\source\Graphics\geometry.cpp" />
+    <ClCompile Include="..\source\Graphics\glstate.cpp" />
+    <ClCompile Include="..\source\Graphics\graphics.cpp" />
+    <ClCompile Include="..\source\Graphics\halfedge.cpp" />
+    <ClCompile Include="..\source\Graphics\heightmap.cpp" />
+    <ClCompile Include="..\source\Graphics\hudimage.cpp" />
+    <ClCompile Include="..\source\Graphics\kdtreecluster.cpp" />
+    <ClCompile Include="..\source\Graphics\lightprobecollection.cpp" />
+    <ClCompile Include="..\source\Graphics\lipsyncsystem.cpp" />
+    <ClCompile Include="..\source\Graphics\model.cpp" />
+    <ClCompile Include="..\source\Graphics\models.cpp" />
+    <ClCompile Include="..\source\Graphics\modelsurfacewalker.cpp" />
+    <ClCompile Include="..\source\Graphics\navmeshrenderer.cpp" />
+    <ClCompile Include="..\source\Graphics\palette.cpp" />
+    <ClCompile Include="..\source\Graphics\particles.cpp" />
+    <ClCompile Include="..\source\Graphics\pxdebugdraw.cpp" />
+    <ClCompile Include="..\source\Graphics\retargetfile.cpp" />
+    <ClCompile Include="..\source\Graphics\shaders.cpp" />
+    <ClCompile Include="..\source\Graphics\simplify.cpp" />
+    <ClCompile Include="..\source\Graphics\skeleton.cpp" />
+    <ClCompile Include="..\source\Graphics\sky.cpp" />
+    <ClCompile Include="..\source\Graphics\terrain.cpp" />
+    <ClCompile Include="..\source\Graphics\text.cpp" />
+    <ClCompile Include="..\source\Graphics\textureatlas.cpp" />
+    <ClCompile Include="..\source\Graphics\textureref.cpp" />
+    <ClCompile Include="..\source\Graphics\textures.cpp" />
+    <ClCompile Include="..\source\Graphics\vbocontainer.cpp" />
+    <ClCompile Include="..\source\Graphics\vboringcontainer.cpp" />
+    <ClCompile Include="..\source\GUI\dimgui\chat_window.cpp" />
+    <ClCompile Include="..\source\GUI\dimgui\dimgui.cpp" />
+    <ClCompile Include="..\source\GUI\dimgui\dimgui_graph.cpp" />
+    <ClCompile Include="..\source\GUI\dimgui\editor.cpp" />
+    <ClCompile Include="..\source\GUI\dimgui\imgui_impl_sdl_gl3.cpp" />
+    <ClCompile Include="..\source\GUI\dimgui\modmenu.cpp" />
+    <ClCompile Include="..\source\GUI\dimgui\settings_screen.cpp" />
+    <ClCompile Include="..\source\GUI\gui.cpp" />
+    <ClCompile Include="..\source\GUI\IMUI\imgui.cpp" />
+    <ClCompile Include="..\source\GUI\IMUI\imui.cpp" />
+    <ClCompile Include="..\source\GUI\IMUI\imui_script.cpp" />
+    <ClCompile Include="..\source\GUI\IMUI\im_behaviors.cpp" />
+    <ClCompile Include="..\source\GUI\IMUI\im_container.cpp" />
+    <ClCompile Include="..\source\GUI\IMUI\im_divider.cpp" />
+    <ClCompile Include="..\source\GUI\IMUI\im_element.cpp" />
+    <ClCompile Include="..\source\GUI\IMUI\im_events.cpp" />
+    <ClCompile Include="..\source\GUI\IMUI\im_image.cpp" />
+    <ClCompile Include="..\source\GUI\IMUI\im_selection_list.cpp" />
+    <ClCompile Include="..\source\GUI\IMUI\im_spacer.cpp" />
+    <ClCompile Include="..\source\GUI\IMUI\im_support.cpp" />
+    <ClCompile Include="..\source\GUI\IMUI\im_text.cpp" />
+    <ClCompile Include="..\source\GUI\IMUI\im_tween.cpp" />
+    <ClCompile Include="..\source\GUI\scriptable_ui.cpp" />
+    <ClCompile Include="..\source\GUI\widgetframework.cpp" />
+    <ClCompile Include="..\source\Images\image_export.cpp" />
+    <ClCompile Include="..\source\Images\nv_image.cpp" />
+    <ClCompile Include="..\source\Images\nv_image_dds.cpp" />
+    <ClCompile Include="..\source\Images\stbimage_wrapper.cpp" />
+    <ClCompile Include="..\source\Images\texture_data.cpp" />
+    <ClCompile Include="..\source\Internal\assetpreload.cpp" />
+    <ClCompile Include="..\source\Internal\cachefile.cpp" />
+    <ClCompile Include="..\source\Internal\callstack.cpp" />
+    <ClCompile Include="..\source\Internal\casecorrectpath.cpp" />
+    <ClCompile Include="..\source\Internal\checksum.cpp" />
+    <ClCompile Include="..\source\Internal\collisiondetection.cpp" />
+    <ClCompile Include="..\source\Internal\common.cpp" />
+    <ClCompile Include="..\source\Internal\config.cpp" />
+    <ClCompile Include="..\source\Internal\crashreport.cpp" />
+    <ClCompile Include="..\source\Internal\datemodified.cpp" />
+    <ClCompile Include="..\source\Internal\detect_settings.cpp" />
+    <ClCompile Include="..\source\Internal\dialogues.cpp" />
+    <ClCompile Include="..\source\Internal\error.cpp" />
+    <ClCompile Include="..\source\Internal\filesystem.cpp" />
+    <ClCompile Include="..\source\Internal\file_descriptor.cpp" />
+    <ClCompile Include="..\source\Internal\hardware_specs.cpp" />
+    <ClCompile Include="..\source\Internal\levelxml.cpp" />
+    <ClCompile Include="..\source\Internal\levelxml_script.cpp" />
+    <ClCompile Include="..\source\Internal\locale.cpp" />
+    <ClCompile Include="..\source\Internal\memwrite.cpp" />
+    <ClCompile Include="..\source\Internal\modid.cpp" />
+    <ClCompile Include="..\source\Internal\modloading.cpp" />
+    <ClCompile Include="..\source\Internal\path.cpp" />
+    <ClCompile Include="..\source\Internal\path_set.cpp" />
+    <ClCompile Include="..\source\Internal\path_utility.cpp" />
+    <ClCompile Include="..\source\Internal\profiler.cpp" />
+    <ClCompile Include="..\source\Internal\returnpathutil.cpp" />
+    <ClCompile Include="..\source\Internal\snprintf.c" />
+    <ClCompile Include="..\source\Internal\spawneritem.cpp" />
+    <ClCompile Include="..\source\Internal\stopwatch.cpp" />
+    <ClCompile Include="..\source\Internal\textfile.cpp" />
+    <ClCompile Include="..\source\Internal\timer.cpp" />
+    <ClCompile Include="..\source\Internal\treestructure.cpp" />
+    <ClCompile Include="..\source\Internal\varstring.cpp" />
+    <ClCompile Include="..\source\Internal\win_mem_track.cpp" />
+    <ClCompile Include="..\source\Internal\zip_util.cpp" />
+    <ClCompile Include="..\source\JSON\jsoncpp.cpp" />
+    <ClCompile Include="..\source\JSON\jsonhelper.cpp" />
+    <ClCompile Include="..\source\Main\altmain.cpp" />
+    <ClCompile Include="..\source\Main\engine.cpp" />
+    <ClCompile Include="..\source\Main\main.cpp" />
+    <ClCompile Include="..\source\Main\scenegraph.cpp" />
+    <ClCompile Include="..\source\Math\enginemath.cpp" />
+    <ClCompile Include="..\source\Math\mat3.cpp" />
+    <ClCompile Include="..\source\Math\mat4.cpp" />
+    <ClCompile Include="..\source\Math\overgrowth_geometry.cpp" />
+    <ClCompile Include="..\source\Math\quaternions.cpp" />
+    <ClCompile Include="..\source\Math\simd_mat4.cpp" />
+    <ClCompile Include="..\source\Math\triangle.c" />
+    <ClCompile Include="..\source\Math\vec2math.cpp" />
+    <ClCompile Include="..\source\Math\vec3math.cpp" />
+    <ClCompile Include="..\source\Math\vec4math.cpp" />
+    <ClCompile Include="..\source\Memory\allocation.cpp" />
+    <ClCompile Include="..\source\Memory\bitarray.cpp" />
+    <ClCompile Include="..\source\Memory\blockallocation.cpp" />
+    <ClCompile Include="..\source\Memory\block_allocator.cpp" />
+    <ClCompile Include="..\source\Memory\stack_allocator.cpp" />
+    <ClCompile Include="..\source\Memory\ts_block_allocator.cpp" />
+    <ClCompile Include="..\source\Network\asnetwork.cpp" />
+    <ClCompile Include="..\source\Network\Basic\basic_net_framework.cpp" />
+    <ClCompile Include="..\source\Network\net_framework.cpp" />
+    <ClCompile Include="..\source\Network\net_framework_common.cpp" />
+    <ClCompile Include="..\source\Network\net_socket_connection.cpp" />
+    <ClCompile Include="..\source\Network\Steam\steam_net_framework.cpp" />
+    <ClCompile Include="..\source\Objects\ambientsoundobject.cpp" />
+    <ClCompile Include="..\source\Objects\cameraobject.cpp" />
+    <ClCompile Include="..\source\Objects\decalobject.cpp" />
+    <ClCompile Include="..\source\Objects\dynamiclightobject.cpp" />
+    <ClCompile Include="..\source\Objects\editorcameraobject.cpp" />
+    <ClCompile Include="..\source\Objects\envobject.cpp" />
+    <ClCompile Include="..\source\Objects\envobjectattach.cpp" />
+    <ClCompile Include="..\source\Objects\group.cpp" />
+    <ClCompile Include="..\source\Objects\hotspot.cpp" />
+    <ClCompile Include="..\source\Objects\itemobject.cpp" />
+    <ClCompile Include="..\source\Objects\itemobjectscriptreader.cpp" />
+    <ClCompile Include="..\source\Objects\lightprobeobject.cpp" />
+    <ClCompile Include="..\source\Objects\lightvolume.cpp" />
+    <ClCompile Include="..\source\Objects\movementobject.cpp" />
+    <ClCompile Include="..\source\Objects\navmeshconnectionobject.cpp" />
+    <ClCompile Include="..\source\Objects\navmeshhintobject.cpp" />
+    <ClCompile Include="..\source\Objects\navmeshregionobject.cpp" />
+    <ClCompile Include="..\source\Objects\object.cpp" />
+    <ClCompile Include="..\source\Objects\pathpointobject.cpp" />
+    <ClCompile Include="..\source\Objects\placeholderobject.cpp" />
+    <ClCompile Include="..\source\Objects\prefab.cpp" />
+    <ClCompile Include="..\source\Objects\reflectioncaptureobject.cpp" />
+    <ClCompile Include="..\source\Objects\riggedobject.cpp" />
+    <ClCompile Include="..\source\Objects\terrainobject.cpp" />
+    <ClCompile Include="..\source\Online\Message\angelscript_data.cpp" />
+    <ClCompile Include="..\source\Online\Message\angelscript_object_data.cpp" />
+    <ClCompile Include="..\source\Online\Message\attach_to_message.cpp" />
+    <ClCompile Include="..\source\Online\Message\audio_play_group_priority_message.cpp" />
+    <ClCompile Include="..\source\Online\Message\audio_play_sound_group_gain_message.cpp" />
+    <ClCompile Include="..\source\Online\Message\audio_play_sound_group_message.cpp" />
+    <ClCompile Include="..\source\Online\Message\audio_play_sound_group_relative_gain_message.cpp" />
+    <ClCompile Include="..\source\Online\Message\audio_play_sound_group_relative_message.cpp" />
+    <ClCompile Include="..\source\Online\Message\audio_play_sound_group_voice_message.cpp" />
+    <ClCompile Include="..\source\Online\Message\audio_play_sound_impact_item_message.cpp" />
+    <ClCompile Include="..\source\Online\Message\audio_play_sound_location_message.cpp" />
+    <ClCompile Include="..\source\Online\Message\audio_play_sound_loop_at_location_message.cpp" />
+    <ClCompile Include="..\source\Online\Message\audio_play_sound_loop_message.cpp" />
+    <ClCompile Include="..\source\Online\Message\audio_play_sound_message.cpp" />
+    <ClCompile Include="..\source\Online\Message\camera_transform_message.cpp" />
+    <ClCompile Include="..\source\Online\Message\chat_entry_message.cpp" />
+    <ClCompile Include="..\source\Online\Message\create_entity.cpp" />
+    <ClCompile Include="..\source\Online\Message\cut_line.cpp" />
+    <ClCompile Include="..\source\Online\Message\editor_transform_change.cpp" />
+    <ClCompile Include="..\source\Online\Message\env_object_update.cpp" />
+    <ClCompile Include="..\source\Online\Message\host_session_flag.cpp" />
+    <ClCompile Include="..\source\Online\Message\item_update.cpp" />
+    <ClCompile Include="..\source\Online\Message\material_sound_event.cpp" />
+    <ClCompile Include="..\source\Online\Message\morph_target_update.cpp" />
+    <ClCompile Include="..\source\Online\Message\movement_object_update.cpp" />
+    <ClCompile Include="..\source\Online\Message\online_message_base.cpp" />
+    <ClCompile Include="..\source\Online\Message\pcs_assign_player_id.cpp" />
+    <ClCompile Include="..\source\Online\Message\pcs_build_version_message.cpp" />
+    <ClCompile Include="..\source\Online\Message\pcs_build_version_request_message.cpp" />
+    <ClCompile Include="..\source\Online\Message\pcs_client_parameters_message.cpp" />
+    <ClCompile Include="..\source\Online\Message\pcs_file_transfer_metadata_message.cpp" />
+    <ClCompile Include="..\source\Online\Message\pcs_loading_completed_message.cpp" />
+    <ClCompile Include="..\source\Online\Message\pcs_session_parameters_message.cpp" />
+    <ClCompile Include="..\source\Online\Message\ping.cpp" />
+    <ClCompile Include="..\source\Online\Message\player_input_message.cpp" />
+    <ClCompile Include="..\source\Online\Message\pong.cpp" />
+    <ClCompile Include="..\source\Online\Message\remove_object.cpp" />
+    <ClCompile Include="..\source\Online\Message\remove_player_state.cpp" />
+    <ClCompile Include="..\source\Online\Message\send_level_message.cpp" />
+    <ClCompile Include="..\source\Online\Message\set_avatar_palette.cpp" />
+    <ClCompile Include="..\source\Online\Message\set_object_enabled_message.cpp" />
+    <ClCompile Include="..\source\Online\Message\set_player_state.cpp" />
+    <ClCompile Include="..\source\Online\Message\sp_remove_message.cpp" />
+    <ClCompile Include="..\source\Online\Message\sp_rename_message.cpp" />
+    <ClCompile Include="..\source\Online\Message\sp_string_message.cpp" />
+    <ClCompile Include="..\source\Online\Message\sp_union_message.cpp" />
+    <ClCompile Include="..\source\Online\Message\test_message.cpp" />
+    <ClCompile Include="..\source\Online\Message\timed_slow_motion.cpp" />
+    <ClCompile Include="..\source\Online\Message\whoosh_sound_message.cpp" />
+    <ClCompile Include="..\source\Online\online.cpp" />
+    <ClCompile Include="..\source\Online\online_client_connection_manager.cpp" />
+    <ClCompile Include="..\source\Online\online_connection_states.cpp" />
+    <ClCompile Include="..\source\Online\online_datastructures.cpp" />
+    <ClCompile Include="..\source\Online\online_file_transfer_handler.cpp" />
+    <ClCompile Include="..\source\Online\online_message_handler.cpp" />
+    <ClCompile Include="..\source\Online\online_utility.cpp" />
+    <ClCompile Include="..\source\Online\package_header.cpp" />
+    <ClCompile Include="..\source\Online\time_interpolator.cpp" />
+    <ClCompile Include="..\source\Physics\bulletcollision.cpp" />
+    <ClCompile Include="..\source\Physics\bulletobject.cpp" />
+    <ClCompile Include="..\source\Physics\bulletworld.cpp" />
+    <ClCompile Include="..\source\Physics\physics.cpp" />
+    <ClCompile Include="..\source\Scripting\angelscript\add_on\debugger\debugger.cpp" />
+    <ClCompile Include="..\source\Scripting\angelscript\add_on\scriptarray\scriptarray.cpp" />
+    <ClCompile Include="..\source\Scripting\angelscript\add_on\scriptdictionary\scriptdictionary.cpp" />
+    <ClCompile Include="..\source\Scripting\angelscript\add_on\scripthelper\scripthelper.cpp" />
+    <ClCompile Include="..\source\Scripting\angelscript\add_on\scriptstdstring\scriptstdstring.cpp" />
+    <ClCompile Include="..\source\Scripting\angelscript\add_on\scriptstdstring\scriptstdstring_utils.cpp" />
+    <ClCompile Include="..\source\Scripting\angelscript\ascollisions.cpp" />
+    <ClCompile Include="..\source\Scripting\angelscript\ascontext.cpp" />
+    <ClCompile Include="..\source\Scripting\angelscript\ascrashdump.cpp" />
+    <ClCompile Include="..\source\Scripting\angelscript\asdebugger.cpp" />
+    <ClCompile Include="..\source\Scripting\angelscript\asfuncs.cpp" />
+    <ClCompile Include="..\source\Scripting\angelscript\asmodule.cpp" />
+    <ClCompile Include="..\source\Scripting\angelscript\asprofiler.cpp" />
+    <ClCompile Include="..\source\Scripting\angelscript\scriptstdstring_extend.cpp" />
+    <ClCompile Include="..\source\Scripting\scriptfile.cpp" />
+    <ClCompile Include="..\source\Scripting\scriptparams.cpp" />
+    <ClCompile Include="..\source\Sound\al_audio.cpp" />
+    <ClCompile Include="..\source\Sound\al_audio_buffer.cpp" />
+    <ClCompile Include="..\source\Sound\al_audio_source.cpp" />
+    <ClCompile Include="..\source\Sound\ambient_sound.cpp" />
+    <ClCompile Include="..\source\Sound\AudioFilters\limiter_audio_filter.cpp" />
+    <ClCompile Include="..\source\Sound\AudioFilters\transition_mixer.cpp" />
+    <ClCompile Include="..\source\Sound\buffer_segment.cpp" />
+    <ClCompile Include="..\source\Sound\high_res_buffer_segment.cpp" />
+    <ClCompile Include="..\source\Sound\Loader\base_loader.cpp" />
+    <ClCompile Include="..\source\Sound\Loader\ogg_loader.cpp" />
+    <ClCompile Include="..\source\Sound\Loader\void_loader.cpp" />
+    <ClCompile Include="..\source\Sound\sound.cpp" />
+    <ClCompile Include="..\source\Sound\soundplayinfo.cpp" />
+    <ClCompile Include="..\source\Sound\soundtrack.cpp" />
+    <ClCompile Include="..\source\Sound\threaded_sound_wrapper.cpp" />
+    <ClCompile Include="..\source\Steam\steamworks.cpp" />
+    <ClCompile Include="..\source\Steam\steamworks_friends.cpp" />
+    <ClCompile Include="..\source\Steam\steamworks_matchmaking.cpp" />
+    <ClCompile Include="..\source\Steam\steamworks_util.cpp" />
+    <ClCompile Include="..\source\Steam\ugc.cpp" />
+    <ClCompile Include="..\source\Steam\ugc_id.cpp" />
+    <ClCompile Include="..\source\Steam\ugc_item.cpp" />
+    <ClCompile Include="..\source\Threading\rand.cpp" />
+    <ClCompile Include="..\source\Threading\sdl_wrapper.cpp" />
+    <ClCompile Include="..\source\Threading\thread_name.cpp" />
+    <ClCompile Include="..\source\Threading\thread_sanity.cpp" />
+    <ClCompile Include="..\source\Timing\gl_query_perf.cpp" />
+    <ClCompile Include="..\source\Timing\intel_gl_perf.cpp" />
+    <ClCompile Include="..\source\Timing\timingevent.cpp" />
+    <ClCompile Include="..\source\UnitTests\atlastest.cpp" />
+    <ClCompile Include="..\source\UnitTests\block_allocator_tester.cpp" />
+    <ClCompile Include="..\source\UnitTests\modloading_test.cpp" />
+    <ClCompile Include="..\source\UnitTests\string_test.cpp" />
+    <ClCompile Include="..\source\UnitTests\testmain.cpp" />
+    <ClCompile Include="..\source\UserInput\input.cpp" />
+    <ClCompile Include="..\source\UserInput\joystick.cpp" />
+    <ClCompile Include="..\source\UserInput\keyboard.cpp" />
+    <ClCompile Include="..\source\UserInput\keycommands.cpp" />
+    <ClCompile Include="..\source\UserInput\keyTranslator.cpp" />
+    <ClCompile Include="..\source\UserInput\mouse.cpp" />
+    <ClCompile Include="..\source\Utility\binn_util.cpp" />
+    <ClCompile Include="..\source\Utility\commonregex.cpp" />
+    <ClCompile Include="..\source\Utility\gl_util.cpp" />
+    <ClCompile Include="..\source\Utility\hash.cpp" />
+    <ClCompile Include="..\source\Utility\imgui_macros.cpp" />
+    <ClCompile Include="..\source\Utility\pcg_basic.cpp" />
+    <ClCompile Include="..\source\Utility\serialize.cpp" />
+    <ClCompile Include="..\source\Utility\strings.cpp" />
+    <ClCompile Include="..\source\Utility\waveform_obj_serializer.cpp" />
+    <ClCompile Include="..\source\Utility\_block_allocator.cpp" />
+    <ClCompile Include="..\source\Version\git_version.cpp" />
+    <ClCompile Include="..\source\Version\version.cpp" />
+    <ClCompile Include="..\source\XML\level_loader.cpp" />
+    <ClCompile Include="..\source\XML\Parsers\activemodsparser.cpp" />
+    <ClCompile Include="..\source\XML\Parsers\assetloadwarningparser.cpp" />
+    <ClCompile Include="..\source\XML\Parsers\assetmanifestparser.cpp" />
+    <ClCompile Include="..\source\XML\Parsers\jobxmlparser.cpp" />
+    <ClCompile Include="..\source\XML\Parsers\levelassetspreloadparser.cpp" />
+    <ClCompile Include="..\source\XML\Parsers\levelxmlparser.cpp" />
+    <ClCompile Include="..\source\XML\Parsers\manifestparser.cpp" />
+    <ClCompile Include="..\source\XML\Parsers\musicxmlparser.cpp" />
+    <ClCompile Include="..\source\XML\Parsers\xmlparserbase.cpp" />
+    <ClCompile Include="..\source\XML\xml_helper.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\opengl.h" />
+    <ClInclude Include="..\source\AI\chunky_tri_mesh.h" />
+    <ClInclude Include="..\source\AI\input_geom.h" />
+    <ClInclude Include="..\source\AI\mesh_loader_obj.h" />
+    <ClInclude Include="..\source\AI\navmesh.h" />
+    <ClInclude Include="..\source\AI\navmeshparameters.h" />
+    <ClInclude Include="..\source\AI\pathfind.h" />
+    <ClInclude Include="..\source\AI\recast_dump.h" />
+    <ClInclude Include="..\source\AI\sample.h" />
+    <ClInclude Include="..\source\AI\sample_interfaces.h" />
+    <ClInclude Include="..\source\AI\tilemesh.h" />
+    <ClInclude Include="..\source\AI\tilemeshtestertool.h" />
+    <ClInclude Include="..\source\Asset\assetbase.h" />
+    <ClInclude Include="..\source\Asset\assetdatabase.h" />
+    <ClInclude Include="..\source\Asset\assetinfobase.h" />
+    <ClInclude Include="..\source\Asset\assetloaderbase.h" />
+    <ClInclude Include="..\source\Asset\assetloaderrors.h" />
+    <ClInclude Include="..\source\Asset\AssetLoader\fallbackassetloader.h" />
+    <ClInclude Include="..\source\Asset\assetmanager.h" />
+    <ClInclude Include="..\source\Asset\assetmanagerthreadhandler.h" />
+    <ClInclude Include="..\source\Asset\assetref.h" />
+    <ClInclude Include="..\source\Asset\assets.h" />
+    <ClInclude Include="..\source\Asset\assettypes.h" />
+    <ClInclude Include="..\source\Asset\Asset\actorfile.h" />
+    <ClInclude Include="..\source\Asset\Asset\ambientsounds.h" />
+    <ClInclude Include="..\source\Asset\Asset\animation.h" />
+    <ClInclude Include="..\source\Asset\Asset\animationeffect.h" />
+    <ClInclude Include="..\source\Asset\Asset\attachmentasset.h" />
+    <ClInclude Include="..\source\Asset\Asset\attacks.h" />
+    <ClInclude Include="..\source\Asset\Asset\averagecolorasset.h" />
+    <ClInclude Include="..\source\Asset\Asset\character.h" />
+    <ClInclude Include="..\source\Asset\Asset\decalfile.h" />
+    <ClInclude Include="..\source\Asset\Asset\filehash.h" />
+    <ClInclude Include="..\source\Asset\Asset\fzx_file.h" />
+    <ClInclude Include="..\source\Asset\Asset\hotspotfile.h" />
+    <ClInclude Include="..\source\Asset\Asset\image_sampler.h" />
+    <ClInclude Include="..\source\Asset\Asset\item.h" />
+    <ClInclude Include="..\source\Asset\Asset\levelinfo.h" />
+    <ClInclude Include="..\source\Asset\Asset\levelset.h" />
+    <ClInclude Include="..\source\Asset\Asset\lipsyncfile.h" />
+    <ClInclude Include="..\source\Asset\Asset\material.h" />
+    <ClInclude Include="..\source\Asset\Asset\objectfile.h" />
+    <ClInclude Include="..\source\Asset\Asset\particletype.h" />
+    <ClInclude Include="..\source\Asset\Asset\reactions.h" />
+    <ClInclude Include="..\source\Asset\Asset\skeletonasset.h" />
+    <ClInclude Include="..\source\Asset\Asset\songlistfile.h" />
+    <ClInclude Include="..\source\Asset\Asset\soundgroup.h" />
+    <ClInclude Include="..\source\Asset\Asset\soundgroupinfo.h" />
+    <ClInclude Include="..\source\Asset\Asset\spawnpointinfo.h" />
+    <ClInclude Include="..\source\Asset\Asset\syncedanimation.h" />
+    <ClInclude Include="..\source\Asset\Asset\texture.h" />
+    <ClInclude Include="..\source\Asset\Asset\texturedummy.h" />
+    <ClInclude Include="..\source\Asset\Asset\voicefile.h" />
+    <ClInclude Include="..\source\Compat\compat.h" />
+    <ClInclude Include="..\source\Compat\fileio.h" />
+    <ClInclude Include="..\source\Compat\filepath.h" />
+    <ClInclude Include="..\source\Compat\hardware_info.h" />
+    <ClInclude Include="..\source\Compat\os_dialogs.h" />
+    <ClInclude Include="..\source\Compat\platform.h" />
+    <ClInclude Include="..\source\Compat\platformsetup.h" />
+    <ClInclude Include="..\source\Compat\processpool.h" />
+    <ClInclude Include="..\source\Compat\time.h" />
+    <ClInclude Include="..\source\Compat\win\win_compat.h" />
+    <ClInclude Include="..\source\Editors\actors_editor.h" />
+    <ClInclude Include="..\source\Editors\editor_tools.h" />
+    <ClInclude Include="..\source\Editors\editor_types.h" />
+    <ClInclude Include="..\source\Editors\editor_utilities.h" />
+    <ClInclude Include="..\source\Editors\entity_type.h" />
+    <ClInclude Include="..\source\Editors\map_editor.h" />
+    <ClInclude Include="..\source\Editors\mem_read_entity_description.h" />
+    <ClInclude Include="..\source\Editors\object_sanity_state.h" />
+    <ClInclude Include="..\source\Editors\save_state.h" />
+    <ClInclude Include="..\source\Editors\sky_editor.h" />
+    <ClInclude Include="..\source\Game\attachment_type.h" />
+    <ClInclude Include="..\source\Game\attackscript.h" />
+    <ClInclude Include="..\source\Game\avatar_control_manager.h" />
+    <ClInclude Include="..\source\Game\characterscript.h" />
+    <ClInclude Include="..\source\Game\color_tint_component.h" />
+    <ClInclude Include="..\source\Game\component.h" />
+    <ClInclude Include="..\source\Game\connection_closed_reason.h" />
+    <ClInclude Include="..\source\Game\detailobjectlayer.h" />
+    <ClInclude Include="..\source\Game\EntityDescription.h" />
+    <ClInclude Include="..\source\Game\hardcoded_assets.h" />
+    <ClInclude Include="..\source\Game\level.h" />
+    <ClInclude Include="..\source\Game\levelinfo.h" />
+    <ClInclude Include="..\source\Game\levelset_script.h" />
+    <ClInclude Include="..\source\Game\loadingscreeninfo.h" />
+    <ClInclude Include="..\source\Game\outofdateinfo.h" />
+    <ClInclude Include="..\source\Game\paths.h" />
+    <ClInclude Include="..\source\Game\reactionscript.h" />
+    <ClInclude Include="..\source\Game\savefile.h" />
+    <ClInclude Include="..\source\Game\savefile_script.h" />
+    <ClInclude Include="..\source\Game\scriptablecampaign.h" />
+    <ClInclude Include="..\source\Game\skyinfo.h" />
+    <ClInclude Include="..\source\Game\terraininfo.h" />
+    <ClInclude Include="..\source\Graphics\animationclient.h" />
+    <ClInclude Include="..\source\Graphics\animationeffectsystem.h" />
+    <ClInclude Include="..\source\Graphics\animationflags.h" />
+    <ClInclude Include="..\source\Graphics\animationreader.h" />
+    <ClInclude Include="..\source\Graphics\atlasnodetree.h" />
+    <ClInclude Include="..\source\Graphics\Billboard.h" />
+    <ClInclude Include="..\source\Graphics\bloodsurface.h" />
+    <ClInclude Include="..\source\Graphics\bonetransform.h" />
+    <ClInclude Include="..\source\Graphics\bytecolor.h" />
+    <ClInclude Include="..\source\Graphics\camera.h" />
+    <ClInclude Include="..\source\Graphics\ColorWheel.h" />
+    <ClInclude Include="..\source\Graphics\converttexture.h" />
+    <ClInclude Include="..\source\Graphics\csg.h" />
+    <ClInclude Include="..\source\Graphics\cubemap.h" />
+    <ClInclude Include="..\source\Graphics\Cursor.h" />
+    <ClInclude Include="..\source\Graphics\decaltextures.h" />
+    <ClInclude Include="..\source\Graphics\detailmapinfo.h" />
+    <ClInclude Include="..\source\Graphics\detailobjectsurface.h" />
+    <ClInclude Include="..\source\Graphics\drawbatch.h" />
+    <ClInclude Include="..\source\Graphics\dynamiclightcollection.hpp" />
+    <ClInclude Include="..\source\Graphics\flares.h" />
+    <ClInclude Include="..\source\Graphics\font_renderer.h" />
+    <ClInclude Include="..\source\Graphics\geometry.h" />
+    <ClInclude Include="..\source\Graphics\glstate.h" />
+    <ClInclude Include="..\source\Graphics\graphics.h" />
+    <ClInclude Include="..\source\Graphics\halfedge.h" />
+    <ClInclude Include="..\source\Graphics\heightmap.h" />
+    <ClInclude Include="..\source\Graphics\hudimage.h" />
+    <ClInclude Include="..\source\Graphics\ikbone.h" />
+    <ClInclude Include="..\source\Graphics\kdtreecluster.h" />
+    <ClInclude Include="..\source\Graphics\lightprobecollection.hpp" />
+    <ClInclude Include="..\source\Graphics\lipsyncsystem.h" />
+    <ClInclude Include="..\source\Graphics\model.h" />
+    <ClInclude Include="..\source\Graphics\models.h" />
+    <ClInclude Include="..\source\Graphics\modelsurfacewalker.h" />
+    <ClInclude Include="..\source\Graphics\navmeshrenderer.h" />
+    <ClInclude Include="..\source\Graphics\palette.h" />
+    <ClInclude Include="..\source\Graphics\particles.h" />
+    <ClInclude Include="..\source\Graphics\pxdebugdraw.h" />
+    <ClInclude Include="..\source\Graphics\retargetfile.h" />
+    <ClInclude Include="..\source\Graphics\shaders.h" />
+    <ClInclude Include="..\source\Graphics\simplify.hpp" />
+    <ClInclude Include="..\source\Graphics\simplify_types.h" />
+    <ClInclude Include="..\source\Graphics\skeleton.h" />
+    <ClInclude Include="..\source\Graphics\sky.h" />
+    <ClInclude Include="..\source\Graphics\terrain.h" />
+    <ClInclude Include="..\source\Graphics\text.h" />
+    <ClInclude Include="..\source\Graphics\textureatlas.h" />
+    <ClInclude Include="..\source\Graphics\textureref.h" />
+    <ClInclude Include="..\source\Graphics\textures.h" />
+    <ClInclude Include="..\source\Graphics\vbocontainer.h" />
+    <ClInclude Include="..\source\Graphics\vboenums.h" />
+    <ClInclude Include="..\source\Graphics\vboringcontainer.h" />
+    <ClInclude Include="..\source\GUI\dimgui\chat_window.h" />
+    <ClInclude Include="..\source\GUI\dimgui\dimgui.h" />
+    <ClInclude Include="..\source\GUI\dimgui\dimgui_graph.h" />
+    <ClInclude Include="..\source\GUI\dimgui\editor.h" />
+    <ClInclude Include="..\source\GUI\dimgui\imgui_impl_sdl_gl3.h" />
+    <ClInclude Include="..\source\GUI\dimgui\modmenu.h" />
+    <ClInclude Include="..\source\GUI\dimgui\settings_screen.h" />
+    <ClInclude Include="..\source\GUI\gui.h" />
+    <ClInclude Include="..\source\GUI\IMUI\imgui.h" />
+    <ClInclude Include="..\source\GUI\IMUI\imui.h" />
+    <ClInclude Include="..\source\GUI\IMUI\imui_script.h" />
+    <ClInclude Include="..\source\GUI\IMUI\imui_state.h" />
+    <ClInclude Include="..\source\GUI\IMUI\im_behaviors.h" />
+    <ClInclude Include="..\source\GUI\IMUI\im_container.h" />
+    <ClInclude Include="..\source\GUI\IMUI\im_divider.h" />
+    <ClInclude Include="..\source\GUI\IMUI\im_element.h" />
+    <ClInclude Include="..\source\GUI\IMUI\im_events.h" />
+    <ClInclude Include="..\source\GUI\IMUI\im_image.h" />
+    <ClInclude Include="..\source\GUI\IMUI\im_message.h" />
+    <ClInclude Include="..\source\GUI\IMUI\im_selection_list.h" />
+    <ClInclude Include="..\source\GUI\IMUI\im_spacer.h" />
+    <ClInclude Include="..\source\GUI\IMUI\im_support.h" />
+    <ClInclude Include="..\source\GUI\IMUI\im_text.h" />
+    <ClInclude Include="..\source\GUI\IMUI\im_tween.h" />
+    <ClInclude Include="..\source\GUI\scriptable_ui.h" />
+    <ClInclude Include="..\source\GUI\widgetframework.h" />
+    <ClInclude Include="..\source\Images\ddsformat.hpp" />
+    <ClInclude Include="..\source\Images\image_export.hpp" />
+    <ClInclude Include="..\source\Images\nv_image.h" />
+    <ClInclude Include="..\source\Images\stbimage_wrapper.h" />
+    <ClInclude Include="..\source\Images\texture_data.h" />
+    <ClInclude Include="..\source\Internal\assetmanifest.h" />
+    <ClInclude Include="..\source\Internal\assetpreload.h" />
+    <ClInclude Include="..\source\Internal\cachefile.h" />
+    <ClInclude Include="..\source\Internal\callstack.h" />
+    <ClInclude Include="..\source\Internal\casecorrectpath.h" />
+    <ClInclude Include="..\source\Internal\checksum.h" />
+    <ClInclude Include="..\source\Internal\collisiondetection.h" />
+    <ClInclude Include="..\source\Internal\comma_separated_list.h" />
+    <ClInclude Include="..\source\Internal\common.h" />
+    <ClInclude Include="..\source\Internal\config.h" />
+    <ClInclude Include="..\source\Internal\crashreport.h" />
+    <ClInclude Include="..\source\Internal\datemodified.h" />
+    <ClInclude Include="..\source\Internal\detect_settings.h" />
+    <ClInclude Include="..\source\Internal\dialogues.h" />
+    <ClInclude Include="..\source\Internal\error.h" />
+    <ClInclude Include="..\source\Internal\error_response.h" />
+    <ClInclude Include="..\source\Internal\filesystem.h" />
+    <ClInclude Include="..\source\Internal\file_descriptor.h" />
+    <ClInclude Include="..\source\Internal\hardware_specs.h" />
+    <ClInclude Include="..\source\Internal\integer.h" />
+    <ClInclude Include="..\source\Internal\levelxml.h" />
+    <ClInclude Include="..\source\Internal\levelxml_script.h" />
+    <ClInclude Include="..\source\Internal\locale.h" />
+    <ClInclude Include="..\source\Internal\memwrite.h" />
+    <ClInclude Include="..\source\Internal\message.h" />
+    <ClInclude Include="..\source\Internal\modid.h" />
+    <ClInclude Include="..\source\Internal\modloading.h" />
+    <ClInclude Include="..\source\Internal\path.h" />
+    <ClInclude Include="..\source\Internal\path_set.h" />
+    <ClInclude Include="..\source\Internal\path_utility.h" />
+    <ClInclude Include="..\source\Internal\profiler.h" />
+    <ClInclude Include="..\source\Internal\referencecounter.h" />
+    <ClInclude Include="..\source\Internal\returnpathutil.h" />
+    <ClInclude Include="..\source\Internal\scoped_buffer.h" />
+    <ClInclude Include="..\source\Internal\SIMD.h" />
+    <ClInclude Include="..\source\Internal\snprintf.h" />
+    <ClInclude Include="..\source\Internal\spawneritem.h" />
+    <ClInclude Include="..\source\Internal\stopwatch.h" />
+    <ClInclude Include="..\source\Internal\textfile.h" />
+    <ClInclude Include="..\source\Internal\timer.h" />
+    <ClInclude Include="..\source\Internal\treestructure.h" />
+    <ClInclude Include="..\source\Internal\varstring.h" />
+    <ClInclude Include="..\source\Internal\win_mem_track.h" />
+    <ClInclude Include="..\source\Internal\zip_util.h" />
+    <ClInclude Include="..\source\JSON\json-forwards.h" />
+    <ClInclude Include="..\source\JSON\json.h" />
+    <ClInclude Include="..\source\JSON\jsonhelper.h" />
+    <ClInclude Include="..\source\Main\altmain.h" />
+    <ClInclude Include="..\source\Main\debuglevelload.h" />
+    <ClInclude Include="..\source\Main\engine.h" />
+    <ClInclude Include="..\source\Main\scenegraph.h" />
+    <ClInclude Include="..\source\Math\enginemath.h" />
+    <ClInclude Include="..\source\Math\ivec2.h" />
+    <ClInclude Include="..\source\Math\ivec2math.h" />
+    <ClInclude Include="..\source\Math\ivec3.h" />
+    <ClInclude Include="..\source\Math\ivec4.h" />
+    <ClInclude Include="..\source\Math\mat3.h" />
+    <ClInclude Include="..\source\Math\mat4.h" />
+    <ClInclude Include="..\source\Math\overgrowth_geometry.h" />
+    <ClInclude Include="..\source\Math\quaternions.h" />
+    <ClInclude Include="..\source\Math\simd_mat4.h" />
+    <ClInclude Include="..\source\Math\triangle.h" />
+    <ClInclude Include="..\source\Math\vec2.h" />
+    <ClInclude Include="..\source\Math\vec2math.h" />
+    <ClInclude Include="..\source\Math\vec3.h" />
+    <ClInclude Include="..\source\Math\vec3math.h" />
+    <ClInclude Include="..\source\Math\vec4.h" />
+    <ClInclude Include="..\source\Math\vec4math.h" />
+    <ClInclude Include="..\source\Memory\allocation.h" />
+    <ClInclude Include="..\source\Memory\bitarray.h" />
+    <ClInclude Include="..\source\Memory\blockallocation.h" />
+    <ClInclude Include="..\source\Memory\block_allocator.h" />
+    <ClInclude Include="..\source\Memory\stack_allocator.h" />
+    <ClInclude Include="..\source\Memory\ts_block_allocator.h" />
+    <ClInclude Include="..\source\Network\asnetwork.h" />
+    <ClInclude Include="..\source\Network\Basic\basic_net_framework.h" />
+    <ClInclude Include="..\source\Network\net_framework.h" />
+    <ClInclude Include="..\source\Network\net_framework_common.h" />
+    <ClInclude Include="..\source\Network\net_socket_connection.h" />
+    <ClInclude Include="..\source\Network\Steam\steam_net_framework.h" />
+    <ClInclude Include="..\source\Objects\ambientsoundobject.h" />
+    <ClInclude Include="..\source\Objects\cameraobject.h" />
+    <ClInclude Include="..\source\Objects\decalobject.h" />
+    <ClInclude Include="..\source\Objects\dynamiclightobject.h" />
+    <ClInclude Include="..\source\Objects\editorcameraobject.h" />
+    <ClInclude Include="..\source\Objects\envobject.h" />
+    <ClInclude Include="..\source\Objects\envobjectattach.h" />
+    <ClInclude Include="..\source\Objects\envobjecttype.h" />
+    <ClInclude Include="..\source\Objects\group.h" />
+    <ClInclude Include="..\source\Objects\hotspot.h" />
+    <ClInclude Include="..\source\Objects\itemobject.h" />
+    <ClInclude Include="..\source\Objects\itemobjectscriptreader.h" />
+    <ClInclude Include="..\source\Objects\lightprobeobject.h" />
+    <ClInclude Include="..\source\Objects\lightvolume.h" />
+    <ClInclude Include="..\source\Objects\movementobject.h" />
+    <ClInclude Include="..\source\Objects\navmeshconnectionobject.h" />
+    <ClInclude Include="..\source\Objects\navmeshhintobject.h" />
+    <ClInclude Include="..\source\Objects\navmeshregionobject.h" />
+    <ClInclude Include="..\source\Objects\object.h" />
+    <ClInclude Include="..\source\Objects\object_msg.h" />
+    <ClInclude Include="..\source\Objects\pathpointobject.h" />
+    <ClInclude Include="..\source\Objects\placeholderobject.h" />
+    <ClInclude Include="..\source\Objects\prefab.h" />
+    <ClInclude Include="..\source\Objects\reflectioncaptureobject.h" />
+    <ClInclude Include="..\source\Objects\riggedobject.h" />
+    <ClInclude Include="..\source\Objects\softinfo.h" />
+    <ClInclude Include="..\source\Objects\terrainobject.h" />
+    <ClInclude Include="..\source\Online\Message\angelscript_data.h" />
+    <ClInclude Include="..\source\Online\Message\angelscript_object_data.h" />
+    <ClInclude Include="..\source\Online\Message\attach_to_message.h" />
+    <ClInclude Include="..\source\Online\Message\audio_play_group_priority_message.h" />
+    <ClInclude Include="..\source\Online\Message\audio_play_sound_group_gain_message.h" />
+    <ClInclude Include="..\source\Online\Message\audio_play_sound_group_message.h" />
+    <ClInclude Include="..\source\Online\Message\audio_play_sound_group_relative_gain_message.h" />
+    <ClInclude Include="..\source\Online\Message\audio_play_sound_group_relative_message.h" />
+    <ClInclude Include="..\source\Online\Message\audio_play_sound_group_voice_message.h" />
+    <ClInclude Include="..\source\Online\Message\audio_play_sound_impact_item_message.h" />
+    <ClInclude Include="..\source\Online\Message\audio_play_sound_location_message.h" />
+    <ClInclude Include="..\source\Online\Message\audio_play_sound_loop_at_location_message.h" />
+    <ClInclude Include="..\source\Online\Message\audio_play_sound_loop_message.h" />
+    <ClInclude Include="..\source\Online\Message\audio_play_sound_message.h" />
+    <ClInclude Include="..\source\Online\Message\camera_transform_message.h" />
+    <ClInclude Include="..\source\Online\Message\chat_entry_message.h" />
+    <ClInclude Include="..\source\Online\Message\create_entity.h" />
+    <ClInclude Include="..\source\Online\Message\cut_line.h" />
+    <ClInclude Include="..\source\Online\Message\editor_transform_change.h" />
+    <ClInclude Include="..\source\Online\Message\env_object_update.h" />
+    <ClInclude Include="..\source\Online\Message\host_session_flag.h" />
+    <ClInclude Include="..\source\Online\Message\item_update.h" />
+    <ClInclude Include="..\source\Online\Message\material_sound_event.h" />
+    <ClInclude Include="..\source\Online\Message\morph_target_update.h" />
+    <ClInclude Include="..\source\Online\Message\movement_object_update.h" />
+    <ClInclude Include="..\source\Online\Message\online_message_base.h" />
+    <ClInclude Include="..\source\Online\Message\pcs_assign_player_id.h" />
+    <ClInclude Include="..\source\Online\Message\pcs_build_version_message.h" />
+    <ClInclude Include="..\source\Online\Message\pcs_build_version_request_message.h" />
+    <ClInclude Include="..\source\Online\Message\pcs_client_parameters_message.h" />
+    <ClInclude Include="..\source\Online\Message\pcs_file_transfer_metadata_message.h" />
+    <ClInclude Include="..\source\Online\Message\pcs_loading_completed_message.h" />
+    <ClInclude Include="..\source\Online\Message\pcs_session_parameters_message.h" />
+    <ClInclude Include="..\source\Online\Message\ping.h" />
+    <ClInclude Include="..\source\Online\Message\player_input_message.h" />
+    <ClInclude Include="..\source\Online\Message\pong.h" />
+    <ClInclude Include="..\source\Online\Message\remove_object.h" />
+    <ClInclude Include="..\source\Online\Message\remove_player_state.h" />
+    <ClInclude Include="..\source\Online\Message\send_level_message.h" />
+    <ClInclude Include="..\source\Online\Message\set_avatar_palette.h" />
+    <ClInclude Include="..\source\Online\Message\set_object_enabled_message.h" />
+    <ClInclude Include="..\source\Online\Message\set_player_state.h" />
+    <ClInclude Include="..\source\Online\Message\sp_remove_message.h" />
+    <ClInclude Include="..\source\Online\Message\sp_rename_message.h" />
+    <ClInclude Include="..\source\Online\Message\sp_string_message.h" />
+    <ClInclude Include="..\source\Online\Message\sp_union_message.h" />
+    <ClInclude Include="..\source\Online\Message\test_message.h" />
+    <ClInclude Include="..\source\Online\Message\timed_slow_motion.h" />
+    <ClInclude Include="..\source\Online\Message\whoosh_sound_message.h" />
+    <ClInclude Include="..\source\Online\online.h" />
+    <ClInclude Include="..\source\Online\online_client_connection_manager.h" />
+    <ClInclude Include="..\source\Online\online_connection_states.h" />
+    <ClInclude Include="..\source\Online\online_datastructures.h" />
+    <ClInclude Include="..\source\Online\online_file_transfer_handler.h" />
+    <ClInclude Include="..\source\Online\online_message_handler.h" />
+    <ClInclude Include="..\source\Online\online_peer.h" />
+    <ClInclude Include="..\source\Online\online_session.h" />
+    <ClInclude Include="..\source\Online\online_utility.h" />
+    <ClInclude Include="..\source\Online\package_header.h" />
+    <ClInclude Include="..\source\Online\state_machine.h" />
+    <ClInclude Include="..\source\Online\time_interpolator.h" />
+    <ClInclude Include="..\source\Physics\bulletcollision.h" />
+    <ClInclude Include="..\source\Physics\bulletobject.h" />
+    <ClInclude Include="..\source\Physics\bulletworld.h" />
+    <ClInclude Include="..\source\Physics\physics.h" />
+    <ClInclude Include="..\source\Scripting\angelscript\add_on\debugger\debugger.h" />
+    <ClInclude Include="..\source\Scripting\angelscript\add_on\scriptarray\scriptarray.h" />
+    <ClInclude Include="..\source\Scripting\angelscript\add_on\scriptdictionary\scriptdictionary.h" />
+    <ClInclude Include="..\source\Scripting\angelscript\add_on\scripthelper\scripthelper.h" />
+    <ClInclude Include="..\source\Scripting\angelscript\add_on\scriptstdstring\scriptstdstring.h" />
+    <ClInclude Include="..\source\Scripting\angelscript\asarglist.h" />
+    <ClInclude Include="..\source\Scripting\angelscript\ascollisions.h" />
+    <ClInclude Include="..\source\Scripting\angelscript\ascontext.h" />
+    <ClInclude Include="..\source\Scripting\angelscript\ascrashdump.h" />
+    <ClInclude Include="..\source\Scripting\angelscript\asdebugger.h" />
+    <ClInclude Include="..\source\Scripting\angelscript\asfuncs.h" />
+    <ClInclude Include="..\source\Scripting\angelscript\asmodule.h" />
+    <ClInclude Include="..\source\Scripting\angelscript\asprofiler.h" />
+    <ClInclude Include="..\source\Scripting\angelscript\scriptstdstring_extend.h" />
+    <ClInclude Include="..\source\Scripting\scriptfile.h" />
+    <ClInclude Include="..\source\Scripting\scriptlogging.h" />
+    <ClInclude Include="..\source\Scripting\scriptparams.h" />
+    <ClInclude Include="..\source\Sound\al_audio.h" />
+    <ClInclude Include="..\source\Sound\al_audio_buffer.h" />
+    <ClInclude Include="..\source\Sound\al_audio_source.h" />
+    <ClInclude Include="..\source\Sound\ambienttriangle.h" />
+    <ClInclude Include="..\source\Sound\ambient_sound.h" />
+    <ClInclude Include="..\source\Sound\AudioFilters\limiter_audio_filter.h" />
+    <ClInclude Include="..\source\Sound\AudioFilters\transition_mixer.h" />
+    <ClInclude Include="..\source\Sound\buffer_segment.h" />
+    <ClInclude Include="..\source\Sound\high_res_buffer_segment.h" />
+    <ClInclude Include="..\source\Sound\Loader\base_loader.h" />
+    <ClInclude Include="..\source\Sound\Loader\ogg_loader.h" />
+    <ClInclude Include="..\source\Sound\Loader\void_loader.h" />
+    <ClInclude Include="..\source\Sound\sound.h" />
+    <ClInclude Include="..\source\Sound\soundlogging.h" />
+    <ClInclude Include="..\source\Sound\soundplayinfo.h" />
+    <ClInclude Include="..\source\Sound\soundtrack.h" />
+    <ClInclude Include="..\source\Sound\threaded_sound_wrapper.h" />
+    <ClInclude Include="..\source\Steam\steamworks.h" />
+    <ClInclude Include="..\source\Steam\steamworks_friends.h" />
+    <ClInclude Include="..\source\Steam\steamworks_matchmaking.h" />
+    <ClInclude Include="..\source\Steam\steamworks_util.h" />
+    <ClInclude Include="..\source\Steam\steam_appid.h" />
+    <ClInclude Include="..\source\Steam\ugc.h" />
+    <ClInclude Include="..\source\Steam\ugc_id.h" />
+    <ClInclude Include="..\source\Steam\ugc_item.h" />
+    <ClInclude Include="..\source\Threading\rand.h" />
+    <ClInclude Include="..\source\Threading\sdl_wrapper.h" />
+    <ClInclude Include="..\source\Threading\threadsafequeue.h" />
+    <ClInclude Include="..\source\Threading\thread_name.h" />
+    <ClInclude Include="..\source\Threading\thread_sanity.h" />
+    <ClInclude Include="..\source\Timing\gl_query_perf.h" />
+    <ClInclude Include="..\source\Timing\intel_gl_perf.h" />
+    <ClInclude Include="..\source\Timing\timestamp.h" />
+    <ClInclude Include="..\source\Timing\timingevent.h" />
+    <ClInclude Include="..\source\UnitTests\testmain.h" />
+    <ClInclude Include="..\source\UserInput\input.h" />
+    <ClInclude Include="..\source\UserInput\joystick.h" />
+    <ClInclude Include="..\source\UserInput\keyboard.h" />
+    <ClInclude Include="..\source\UserInput\keycommands.h" />
+    <ClInclude Include="..\source\UserInput\keyTranslator.h" />
+    <ClInclude Include="..\source\UserInput\mouse.h" />
+    <ClInclude Include="..\source\Utility\assert.h" />
+    <ClInclude Include="..\source\Utility\binn_util.h" />
+    <ClInclude Include="..\source\Utility\block_allocator.h" />
+    <ClInclude Include="..\source\Utility\commonregex.h" />
+    <ClInclude Include="..\source\Utility\compiler_macros.h" />
+    <ClInclude Include="..\source\Utility\disallow_copy_and_assign.h" />
+    <ClInclude Include="..\source\Utility\fixed_array.h" />
+    <ClInclude Include="..\source\Utility\fixed_heap_string.h" />
+    <ClInclude Include="..\source\Utility\fixed_string.h" />
+    <ClInclude Include="..\source\Utility\flat_hash_map.hpp" />
+    <ClInclude Include="..\source\Utility\fqms_simplify.hpp" />
+    <ClInclude Include="..\source\Utility\gl_util.h" />
+    <ClInclude Include="..\source\Utility\hash.h" />
+    <ClInclude Include="..\source\Utility\ieee.h" />
+    <ClInclude Include="..\source\Utility\imgui_macros.h" />
+    <ClInclude Include="..\source\Utility\math_macro.h" />
+    <ClInclude Include="..\source\Utility\pcg_basic.h" />
+    <ClInclude Include="..\source\Utility\sdl_util.h" />
+    <ClInclude Include="..\source\Utility\serialize.h" />
+    <ClInclude Include="..\source\Utility\set.h" />
+    <ClInclude Include="..\source\Utility\simple_vector.h" />
+    <ClInclude Include="..\source\Utility\stacktrace.h" />
+    <ClInclude Include="..\source\Utility\strings.h" />
+    <ClInclude Include="..\source\Utility\timing.h" />
+    <ClInclude Include="..\source\Utility\waveform_obj_serializer.h" />
+    <ClInclude Include="..\source\Version\version.h" />
+    <ClInclude Include="..\source\Wrappers\crn.h" />
+    <ClInclude Include="..\source\Wrappers\glm.h" />
+    <ClInclude Include="..\source\Wrappers\linux_gtk.h" />
+    <ClInclude Include="..\source\Wrappers\openal.h" />
+    <ClInclude Include="..\source\Wrappers\tut.h" />
+    <ClInclude Include="..\source\Wrappers\vorbis.h" />
+    <ClInclude Include="..\source\XML\level_loader.h" />
+    <ClInclude Include="..\source\XML\Parsers\activemodsparser.h" />
+    <ClInclude Include="..\source\XML\Parsers\assetloadwarningparser.h" />
+    <ClInclude Include="..\source\XML\Parsers\assetmanifestparser.h" />
+    <ClInclude Include="..\source\XML\Parsers\jobxmlparser.h" />
+    <ClInclude Include="..\source\XML\Parsers\levelassetspreloadparser.h" />
+    <ClInclude Include="..\source\XML\Parsers\levelxmlparser.h" />
+    <ClInclude Include="..\source\XML\Parsers\manifestparser.h" />
+    <ClInclude Include="..\source\XML\Parsers\musicxmlparser.h" />
+    <ClInclude Include="..\source\XML\Parsers\xmlparserbase.h" />
+    <ClInclude Include="..\source\XML\xml_helper.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="icon.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\source\Internal\error.mm" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{8884C861-49CA-4DC3-BB36-81DA53167FFE}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Overgrowth</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;NEED_SNPRINTF_ONLY;USE_BASIC_NETWORK_FRAMEWORK;HAVE_MIXCFG_H;TIXML_USE_STL;IMGUI_ENABLE_FREETYPE;UNIT_TESTS;NTELEMETRY;NO_GL_ERROR_CHECKING=1;OPEN_WIN32_CONSOLE=1;LOG_LEVEL=4;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\source;..\include;..\libtut\include;..\libangelscript\include;..\librecast\include;..\libdetour\include;..\libdetourcrowd\include;..\libtinyxml;..\libglad\include;..\SDL2\include;..\SDL2_net\include;..\libfreetype\include;..\openal\include;..\openal\include\AL;..\ogg\include;..\vorbis\include;..\vorbisfile\include;..\libimgui;..\libbullet;..\libbinn;..\libcrn\crunch;..\libcrn\inc;..\libzip\include;..\libzstd;..\libtrex\include;..\libmurmurhash3\include;..\libzlib\include;..\libNV;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4005;4099</DisableSpecificWarnings>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>..\libd\x86;..\libNV\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opengl32.lib;libbinn.lib;libglad.lib;libtinyxml.lib;libcrn.lib;libzip.lib;libimgui.lib;libmurmurhash3.lib;libtrex.lib;libdetour.lib;libdetourcrowd.lib;librecast.lib;libzstd.lib;libangelscript.lib;libopenal.lib;libogg.lib;libvorbis.lib;libvorbisfile.lib;libzlib.lib;libfreetype.lib;libbullet.lib;OvergrowthCompat.lib;OvergrowthLogging.lib;SDL2.lib;SDL2main.lib;SDL2_net.lib;nvapi.lib;winmm.lib;comdlg32.lib;ole32.lib;shell32.lib</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;NEED_SNPRINTF_ONLY;USE_BASIC_NETWORK_FRAMEWORK;HAVE_MIXCFG_H;TIXML_USE_STL;IMGUI_ENABLE_FREETYPE;UNIT_TESTS;NTELEMETRY;NO_GL_ERROR_CHECKING=1;OPEN_WIN32_CONSOLE=1;LOG_LEVEL=4;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\source;..\include;..\libtut\include;..\libangelscript\include;..\librecast\include;..\libdetour\include;..\libdetourcrowd\include;..\libtinyxml;..\libglad\include;..\SDL2\include;..\SDL2_net\include;..\libfreetype\include;..\openal\include;..\openal\include\AL;..\ogg\include;..\vorbis\include;..\vorbisfile\include;..\libimgui;..\libbullet;..\libbinn;..\libcrn\crunch;..\libcrn\inc;..\libzip\include;..\libzstd;..\libtrex\include;..\libmurmurhash3\include;..\libzlib\include;..\libNV;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4005;4099</DisableSpecificWarnings>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>..\libd\x64;..\libNV\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opengl32.lib;libbinn.lib;libglad.lib;libtinyxml.lib;libcrn.lib;libzip.lib;libimgui.lib;libmurmurhash3.lib;libtrex.lib;libdetour.lib;libdetourcrowd.lib;librecast.lib;libzstd.lib;libangelscript.lib;libopenal.lib;libogg.lib;libvorbis.lib;libvorbisfile.lib;libzlib.lib;libfreetype.lib;libbullet.lib;OvergrowthCompat.lib;OvergrowthLogging.lib;SDL2.lib;SDL2main.lib;SDL2_net.lib;nvapi.lib;winmm.lib;comdlg32.lib;ole32.lib;shell32.lib</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;NEED_SNPRINTF_ONLY;USE_BASIC_NETWORK_FRAMEWORK;HAVE_MIXCFG_H;TIXML_USE_STL;IMGUI_ENABLE_FREETYPE;UNIT_TESTS;NTELEMETRY;NO_GL_ERROR_CHECKING=1;OPEN_WIN32_CONSOLE=1;LOG_LEVEL=4;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\source;..\include;..\libtut\include;..\libangelscript\include;..\librecast\include;..\libdetour\include;..\libdetourcrowd\include;..\libtinyxml;..\libglad\include;..\SDL2\include;..\SDL2_net\include;..\libfreetype\include;..\openal\include;..\openal\include\AL;..\ogg\include;..\vorbis\include;..\vorbisfile\include;..\libimgui;..\libbullet;..\libbinn;..\libcrn\crunch;..\libcrn\inc;..\libzip\include;..\libzstd;..\libtrex\include;..\libmurmurhash3\include;..\libzlib\include;..\libNV;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4005;4099</DisableSpecificWarnings>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>..\lib\x86;..\libNV\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opengl32.lib;libbinn.lib;libglad.lib;libtinyxml.lib;libcrn.lib;libzip.lib;libimgui.lib;libmurmurhash3.lib;libtrex.lib;libdetour.lib;libdetourcrowd.lib;librecast.lib;libzstd.lib;libangelscript.lib;libopenal.lib;libogg.lib;libvorbis.lib;libvorbisfile.lib;libzlib.lib;libfreetype.lib;libbullet.lib;OvergrowthCompat.lib;OvergrowthLogging.lib;SDL2.lib;SDL2main.lib;SDL2_net.lib;nvapi.lib;winmm.lib;comdlg32.lib;ole32.lib;shell32.lib</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;NEED_SNPRINTF_ONLY;USE_BASIC_NETWORK_FRAMEWORK;HAVE_MIXCFG_H;TIXML_USE_STL;IMGUI_ENABLE_FREETYPE;UNIT_TESTS;NTELEMETRY;NO_GL_ERROR_CHECKING=1;OPEN_WIN32_CONSOLE=1;LOG_LEVEL=4;AL_LIBTYPE_STATIC;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\source;..\include;..\libtut\include;..\libangelscript\include;..\librecast\include;..\libdetour\include;..\libdetourcrowd\include;..\libtinyxml;..\libglad\include;..\SDL2\include;..\SDL2_net\include;..\libfreetype\include;..\openal\include;..\openal\include\AL;..\ogg\include;..\vorbis\include;..\vorbisfile\include;..\libimgui;..\libbullet;..\libbinn;..\libcrn\crunch;..\libcrn\inc;..\libzip\include;..\libzstd;..\libtrex\include;..\libmurmurhash3\include;..\libzlib\include;..\libNV;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4005;4099</DisableSpecificWarnings>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>..\lib\x64;..\libNV\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opengl32.lib;libbinn.lib;libglad.lib;libtinyxml.lib;libcrn.lib;libzip.lib;libimgui.lib;libmurmurhash3.lib;libtrex.lib;libdetour.lib;libdetourcrowd.lib;librecast.lib;libzstd.lib;libangelscript.lib;libopenal.lib;libogg.lib;libvorbis.lib;libvorbisfile.lib;libzlib.lib;libfreetype.lib;libbullet.lib;OvergrowthCompat.lib;OvergrowthLogging.lib;SDL2.lib;SDL2main.lib;SDL2_net.lib;nvapi.lib;winmm.lib;comdlg32.lib;ole32.lib;shell32.lib</AdditionalDependencies>
+      <StackReserveSize>4194304</StackReserveSize>
+      <LargeAddressAware>true</LargeAddressAware>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

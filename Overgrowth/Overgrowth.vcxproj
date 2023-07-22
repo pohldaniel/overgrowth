@@ -949,6 +949,8 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalLibraryDirectories>..\libd\x86;..\libNV\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>opengl32.lib;libbinn.lib;libglad.lib;libtinyxml.lib;libcrn.lib;libzip.lib;libimgui.lib;libmurmurhash3.lib;libtrex.lib;libdetour.lib;libdetourcrowd.lib;librecast.lib;libzstd.lib;libangelscript.lib;libopenal.lib;libogg.lib;libvorbis.lib;libvorbisfile.lib;libzlib.lib;libfreetype.lib;libbullet.lib;OvergrowthCompat.lib;OvergrowthLogging.lib;SDL2.lib;SDL2main.lib;SDL2_net.lib;nvapi.lib;winmm.lib;comdlg32.lib;ole32.lib;shell32.lib</AdditionalDependencies>
+      <StackReserveSize>4194304</StackReserveSize>
+      <LargeAddressAware>true</LargeAddressAware>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -967,6 +969,8 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalLibraryDirectories>..\libd\x64;..\libNV\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>opengl32.lib;libbinn.lib;libglad.lib;libtinyxml.lib;libcrn.lib;libzip.lib;libimgui.lib;libmurmurhash3.lib;libtrex.lib;libdetour.lib;libdetourcrowd.lib;librecast.lib;libzstd.lib;libangelscript.lib;libopenal.lib;libogg.lib;libvorbis.lib;libvorbisfile.lib;libzlib.lib;libfreetype.lib;libbullet.lib;OvergrowthCompat.lib;OvergrowthLogging.lib;SDL2.lib;SDL2main.lib;SDL2_net.lib;nvapi.lib;winmm.lib;comdlg32.lib;ole32.lib;shell32.lib</AdditionalDependencies>
+      <StackReserveSize>4194304</StackReserveSize>
+      <LargeAddressAware>true</LargeAddressAware>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -989,6 +993,8 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalLibraryDirectories>..\lib\x86;..\libNV\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>opengl32.lib;libbinn.lib;libglad.lib;libtinyxml.lib;libcrn.lib;libzip.lib;libimgui.lib;libmurmurhash3.lib;libtrex.lib;libdetour.lib;libdetourcrowd.lib;librecast.lib;libzstd.lib;libangelscript.lib;libopenal.lib;libogg.lib;libvorbis.lib;libvorbisfile.lib;libzlib.lib;libfreetype.lib;libbullet.lib;OvergrowthCompat.lib;OvergrowthLogging.lib;SDL2.lib;SDL2main.lib;SDL2_net.lib;nvapi.lib;winmm.lib;comdlg32.lib;ole32.lib;shell32.lib</AdditionalDependencies>
+      <StackReserveSize>4194304</StackReserveSize>
+      <LargeAddressAware>true</LargeAddressAware>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">

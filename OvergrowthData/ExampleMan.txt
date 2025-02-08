@@ -1,0 +1,7 @@
+Example Man
+
+Instuctions: merge with your data folder.
+
+file to load in editor: Data\Custom\Markuss\ExampleMan.xml
+
+- Markuss

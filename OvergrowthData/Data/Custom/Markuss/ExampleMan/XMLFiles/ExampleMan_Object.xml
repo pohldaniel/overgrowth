@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<Object>
+	<Model>Data/Custom/Markuss/ExampleMan/Models/ExampleMan.obj</Model>
+	<ColorMap>Data/Custom/Markuss/ExampleMan/Textures/ExampleMan_Color.TGA</ColorMap>
+	<NormalMap>Data/Custom/Markuss/ExampleMan/Textures/ExampleMan_Norm.TGA</NormalMap>
+	<ShaderName>cubemapobjchar</ShaderName>
+</Object>

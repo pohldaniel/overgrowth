@@ -16,6 +16,9 @@
 #version 150
 #extension GL_ARB_shading_language_420pack : enable
 
+#og_version_major 1
+#og_version_minor 5
+
 /*#if defined(WATER)
 #define NO_DECALS
 #endif
@@ -318,6 +321,10 @@ in vec3 world_vert;
     in vec4 frag_tex_coords;
 #elif defined(CHARACTER)
     in vec2 fur_tex_coord;
+
+    #if defined(TANGENT)
+        in mat3 tan_to_obj;
+    #endif
 
     #if !defined(DEPTH_ONLY)
         in vec3 concat_bone1;
@@ -2398,7 +2405,12 @@ void main() {
 
                     // Get world space normal
                     vec4 normalmap = texture(normal_tex, tex_coord + tex_offset);
-                    vec3 unrigged_normal = UnpackObjNormal(normalmap);
+                    #if defined(TANGENT)
+                        vec3 unpacked_normal = UnpackTanNormal(normalmap);
+                        vec3 unrigged_normal = tan_to_obj * unpacked_normal;
+                    #else
+                        vec3 unrigged_normal = UnpackObjNormal(normalmap);
+                    #endif
                     vec3 ws_normal = normalize(concat_bone1 * unrigged_normal.x +
                         concat_bone2 * unrigged_normal.y +
                         concat_bone3 * unrigged_normal.z);

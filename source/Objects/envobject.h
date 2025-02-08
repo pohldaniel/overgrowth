@@ -148,6 +148,7 @@ class EnvObject : public Object {
     // Drawing
     void Draw() override;
     void DrawInstances(EnvObject **instance_array, int num_instances, const mat4 &proj_view_matrix, const mat4 &prev_proj_view_matrix, const std::vector<mat4> *shadow_matrix, const vec3 &cam_pos, Object::DrawType type);
+    static void AfterDrawInstances();
     bool HasDetailObjectSurfaces() const { return !detail_object_surfaces.empty(); }
     void DrawDetailObjectInstances(EnvObject **instance_array, int num_instances, Object::DrawType type);
     void PreDrawCamera(float curr_game_time) override;
@@ -172,11 +173,11 @@ class EnvObject : public Object {
     void RemovePhysicsShape();
     const Model *GetModel() const;
     vec3 GetBoundingBoxSize();
-    void HandleMaterialEvent(const std::string &the_event, const vec3 &event_pos);
+    void HandleMaterialEvent(const std::string &the_event, const vec3 &event_pos, int *tri) override;
     const MaterialEvent &GetMaterialEvent(const std::string &the_event, const vec3 &event_pos, int *tri) override;
     const MaterialEvent &GetMaterialEvent(const std::string &the_event, const vec3 &event_pos, const std::string &mod, int *tri) override;
-    const MaterialDecal &GetMaterialDecal(const std::string &type, const vec3 &pos);
-    const MaterialParticle &GetMaterialParticle(const std::string &type, const vec3 &pos);
+    const MaterialDecal &GetMaterialDecal(const std::string &type, const vec3 &pos, int* tri = NULL) override;
+    const MaterialParticle &GetMaterialParticle(const std::string &type, const vec3 &pos, int* tri = NULL) override;
     MaterialRef GetMaterial(const vec3 &pos, int *tri = NULL) override;
     void UpdateDetailScale();
     bool Load(const std::string &type_file);

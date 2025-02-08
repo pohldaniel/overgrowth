@@ -396,7 +396,7 @@ int vasnprintf (char **ptr, size_t str_m, const char *fmt, va_list ap);
 /* declare our portable vsnprintf routine under name portable_vsnprintf */
 #else
 /* declare our portable routines under names snprintf and vsnprintf */
-#define portable_snprintf __snprintf
+#define portable_snprintf snprintf
 #if !defined(NEED_SNPRINTF_ONLY)
 #define portable_vsnprintf vsnprintf
 #endif

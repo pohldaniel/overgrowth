@@ -27,7 +27,7 @@
 #include <Internal/referencecounter.h>
 
 #include <vector>
-#include <iterator>
+
 class alAudioSource {
    public:
     alAudioSource();

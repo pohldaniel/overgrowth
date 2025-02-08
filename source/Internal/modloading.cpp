@@ -718,7 +718,7 @@ void ModInstance::Reload() {
         // We need to sort to allow intersectiontests
         std::sort(manifest.begin(), manifest.end());
 
-       if (fileExist(modxmlpath.c_str())) {
+        if (fileExist(modxmlpath.c_str())) {
             int err = 0;
 
             if (fileReadable(modxmlpath.c_str())) {
@@ -1232,7 +1232,7 @@ void ModInstance::Reload() {
             LOGE << "Unable to load mod.xml " << modxmlpath << ", file is missing." << std::endl;
             PARSE_ERROR(NULL, kValidityMissingXml);
         }
-		
+
         // Check if mod has files in root folder we don't like.
         for (auto& str : manifest) {
             bool is_root = true;
@@ -2520,7 +2520,6 @@ void ModLoading::DetectMods() {
     std::vector<std::string> verifiedMods;
 
     for (auto& newMod : newMods) {
-
         bool already_in_list = false;
         bool has_mod_xml = false;
 
@@ -2530,7 +2529,6 @@ void ModLoading::DetectMods() {
 
         if (has_mod_xml) {
             for (auto& verifiedMod : verifiedMods) {
-
                 if (AreSame(std::string(newMod + "/mod.xml").c_str(), std::string(verifiedMod + "/mod.xml").c_str())) {
                     already_in_list = true;
                 }

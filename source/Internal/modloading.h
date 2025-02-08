@@ -34,7 +34,7 @@
 #include <string>
 #include <iostream>
 #include <set>
-#include <iterator>
+
 class SteamworksUGCItem;
 class TiXmlElement;
 

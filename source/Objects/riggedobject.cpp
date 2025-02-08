@@ -160,7 +160,6 @@ RiggedObject::RiggedObject() : static_char(false),
                                fur_transform_vec_vbo2(V_MIBIBYTE, kVBOFloat | kVBODynamic),
                                fur_tex_transform_vbo(V_MIBIBYTE, kVBOFloat | kVBODynamic),
                                last_draw_time(0.0f),
-                               shader("envobject #CHARACTER"),
                                water_cube("character_accumulate #WATER_CUBE"),
                                water_cube_expand("character_accumulate #EXPAND"),
                                update_camera_pos(true) {
@@ -657,12 +656,12 @@ void RiggedObject::ClientBeforeDraw() {
     }
 }
 
-void RiggedObject::Draw(const mat4& proj_view_matrix, Object::DrawType type) {
+void RiggedObject::DrawRiggedObject(const mat4& proj_view_matrix, Object::DrawType type) {
     if (g_debug_runtime_disable_rigged_object_draw) {
         return;
     }
 
-    PROFILER_GPU_ZONE(g_profiler_ctx, "RiggedObject::Draw()");
+    PROFILER_GPU_ZONE(g_profiler_ctx, "RiggedObject::DrawRiggedObject()");
     if (type == Object::kFullDraw) {
         last_draw_time = game_timer.game_time;
     }
@@ -695,7 +694,7 @@ void RiggedObject::Draw(const mat4& proj_view_matrix, Object::DrawType type) {
     const int kShaderStrSize = 1024;
     char buf[2][kShaderStrSize];
     char* shader_str[2] = {buf[0], buf[1]};
-    FormatString(shader_str[0], kShaderStrSize, "%s %s", shader, global_shader_suffix);
+    FormatString(shader_str[0], kShaderStrSize, "%s %s", ofc->shader_name.c_str(), global_shader_suffix);
     if (GPU_skinning) {
         FormatString(shader_str[1], kShaderStrSize, "%s #GPU_SKINNING", shader_str[0]);
         std::swap(shader_str[0], shader_str[1]);
@@ -1534,8 +1533,23 @@ void RiggedObject::Load(const std::string& character_path, vec3 pos, SceneGraph*
     // ofc = ObjectFiles::Instance()->ReturnRef(char_ref->GetObjPath());
     ofc = Engine::Instance()->GetAssetManager()->LoadSync<ObjectFile>(char_ref->GetObjPath());
 
+    if (ofc->shader_name.empty() || ofc->shader_name == "cubemapobjchar") {
+        ofc->shader_name = "envobject #CHARACTER";
+    }
+
+    bool use_tangent = false;
+    if (ofc->shader_name.find("#TANGENT") != std::string::npos) {
+        use_tangent = true;
+    }
+
+    char flags = 0;
+    if (use_tangent) {
+        flags = flags | _MDL_USE_TANGENT;
+    }
+    flags |= _MDL_CENTER;
+
     Models* mi = Models::Instance();
-    int the_model_id = mi->loadModel(ofc->model_name, _MDL_CENTER);
+    int the_model_id = mi->loadModel(ofc->model_name, flags);
     model_id[0] = the_model_id;
 
     Textures* ti = Textures::Instance();
@@ -1835,7 +1849,7 @@ void RiggedObject::Load(const std::string& character_path, vec3 pos, SceneGraph*
     const std::string& fur_path = char_ref->GetFurPath();
     int fur_model_id = -1;
     if (!fur_path.empty() && FileExists(fur_path.c_str(), kDataPaths | kModPaths)) {
-        fur_model_id = mi->loadModel(fur_path.c_str(), 0);
+        fur_model_id = mi->loadModel(fur_path.c_str(), use_tangent ? _MDL_USE_TANGENT : 0);
         CreateFurModel(model_id[0], fur_model_id);
     }
 
@@ -2276,6 +2290,9 @@ void RiggedObject::DrawModel(Model* model, int lod_level) {
     CHECK_GL_ERROR();
     int shader = shaders->bound_program;
     int vertex_attrib_id = shaders->returnShaderAttrib("vertex_attrib", shader);
+    int tangent_attrib_id = shaders->returnShaderAttrib("tangent_attrib", shader);
+    int bitangent_attrib_id = shaders->returnShaderAttrib("bitangent_attrib", shader);
+    int normal_attrib_id = shaders->returnShaderAttrib("normal_attrib", shader);
     int tex_coord_attrib_id = shaders->returnShaderAttrib("tex_coord_attrib", shader);
     int morph_tex_offset_attrib_id = shaders->returnShaderAttrib("morph_tex_offset_attrib", shader);
     int fur_tex_coord_attrib_id = shaders->returnShaderAttrib("fur_tex_coord_attrib", shader);
@@ -2294,6 +2311,21 @@ void RiggedObject::DrawModel(Model* model, int lod_level) {
         graphics->EnableVertexAttribArray(vertex_attrib_id);
         model->VBO_vertices.Bind();
         glVertexAttribPointer(vertex_attrib_id, 3, GL_FLOAT, false, 0, 0);
+    }
+    if (tangent_attrib_id != -1) {
+        graphics->EnableVertexAttribArray(tangent_attrib_id);
+        model->VBO_tangents.Bind();
+        glVertexAttribPointer(tangent_attrib_id, 3, GL_FLOAT, false, 0, 0);
+    }
+    if (bitangent_attrib_id != -1) {
+        graphics->EnableVertexAttribArray(bitangent_attrib_id);
+        model->VBO_bitangents.Bind();
+        glVertexAttribPointer(bitangent_attrib_id, 3, GL_FLOAT, false, 0, 0);
+    }
+    if (normal_attrib_id != -1) {
+        graphics->EnableVertexAttribArray(normal_attrib_id);
+        model->VBO_normals.Bind();
+        glVertexAttribPointer(normal_attrib_id, 3, GL_FLOAT, false, 0, 0);
     }
     if (tex_coord_attrib_id != -1) {
         graphics->EnableVertexAttribArray(tex_coord_attrib_id);
@@ -2379,6 +2411,18 @@ void RiggedObject::DrawModel(Model* model, int lod_level) {
         if (vertex_attrib_id != -1) {
             fur_model.VBO_vertices.Bind();
             glVertexAttribPointer(vertex_attrib_id, 3, GL_FLOAT, false, 0, 0);
+        }
+        if (tangent_attrib_id != -1) {
+            fur_model.VBO_tangents.Bind();
+            glVertexAttribPointer(tangent_attrib_id, 3, GL_FLOAT, false, 0, 0);
+        }
+        if (bitangent_attrib_id != -1) {
+            fur_model.VBO_bitangents.Bind();
+            glVertexAttribPointer(bitangent_attrib_id, 3, GL_FLOAT, false, 0, 0);
+        }
+        if (normal_attrib_id != -1) {
+            fur_model.VBO_normals.Bind();
+            glVertexAttribPointer(normal_attrib_id, 3, GL_FLOAT, false, 0, 0);
         }
         if (tex_coord_attrib_id != -1) {
             fur_model.VBO_tex_coords.Bind();
@@ -3872,7 +3916,7 @@ void DefineRiggedObjectTypePublic(ASContext* ctx) {
     ctx->RegisterObjectMethod("RiggedObject", "void SetFrameMatrix(int which, const BoneTransform &in transform)", asFUNCTION(ASSetFrameMatrix), asCALL_CDECL_OBJFIRST);
     ctx->RegisterObjectMethod("RiggedObject", "float GetCharScale()", asMETHOD(RiggedObject, GetCharScale), asCALL_THISCALL);
     ctx->RegisterObjectMethod("RiggedObject", "float GetRelativeCharScale()", asMETHOD(RiggedObject, GetRelativeCharScale), asCALL_THISCALL);
-    ctx->RegisterObjectMethod("RiggedObject", "void Draw()", asMETHOD(RiggedObject, Draw), asCALL_THISCALL);
+    ctx->RegisterObjectMethod("RiggedObject", "void Draw()", asMETHOD(RiggedObject, DrawRiggedObject), asCALL_THISCALL);
     ctx->RegisterObjectMethod("RiggedObject", "void CutPlane(const vec3 &in normal, const vec3 &in position, const vec3 &in direction, int type, int depth)", asMETHOD(RiggedObject, CutPlane), asCALL_THISCALL);
     ctx->RegisterObjectMethod("RiggedObject", "void Stab(const vec3 &in position, const vec3 &in direction, int type, int depth)", asMETHOD(RiggedObject, Stab), asCALL_THISCALL);
     ctx->RegisterObjectMethod("RiggedObject", "void SetRagdollStrength(float)", asMETHOD(RiggedObject, SetRagdollStrength), asCALL_THISCALL);
@@ -4510,6 +4554,9 @@ void RiggedObject::CreateFurModel(int model_id, int fur_model_id) {
     }
 
     int fur_model_num_vertices = attach_base.size();
+    fur_model.normals.resize(base_model.normals.empty() ? 0 : fur_model_num_vertices * 3);
+    fur_model.tangents.resize(base_model.tangents.empty() ? 0 : fur_model_num_vertices * 3);
+    fur_model.bitangents.resize(base_model.bitangents.empty() ? 0 : fur_model_num_vertices * 3);
     fur_model.tex_coords.resize(fur_model_num_vertices * 2);
     fur_model.bone_weights.resize(fur_model_num_vertices);
     fur_model.bone_ids.resize(fur_model_num_vertices);
@@ -4517,6 +4564,21 @@ void RiggedObject::CreateFurModel(int model_id, int fur_model_id) {
     for (int i = 0; i < fur_model_num_vertices; ++i) {
         const int& base_id = attach_base[i];
         fur_base_vertex_ids[i] = base_id;
+        if (base_model.normals.size()) {
+            fur_model.normals[i * 3 + 0] = base_model.normals[base_id * 3 + 0];
+            fur_model.normals[i * 3 + 1] = base_model.normals[base_id * 3 + 1];
+            fur_model.normals[i * 3 + 2] = base_model.normals[base_id * 3 + 2];
+        }
+        if (base_model.tangents.size()) {
+            fur_model.tangents[i * 3 + 0] = base_model.tangents[base_id * 3 + 0];
+            fur_model.tangents[i * 3 + 1] = base_model.tangents[base_id * 3 + 1];
+            fur_model.tangents[i * 3 + 2] = base_model.tangents[base_id * 3 + 2];
+        }
+        if (base_model.bitangents.size()) {
+            fur_model.bitangents[i * 3 + 0] = base_model.bitangents[base_id * 3 + 0];
+            fur_model.bitangents[i * 3 + 1] = base_model.bitangents[base_id * 3 + 1];
+            fur_model.bitangents[i * 3 + 2] = base_model.bitangents[base_id * 3 + 2];
+        }
         fur_model.tex_coords[i * 2 + 0] = base_model.tex_coords[base_id * 2 + 0];
         fur_model.tex_coords[i * 2 + 1] = base_model.tex_coords[base_id * 2 + 1];
         fur_model.bone_weights[i] = base_model.bone_weights[base_id];
@@ -4577,7 +4639,7 @@ void RiggedObject::ClearBoneConstraints() {
     scenegraph_->bullet_world_->ClearBoneConstraints();
 }
 
-void RiggedObject::ApplyPalette(const OGPalette& _palette) {
+void RiggedObject::ApplyPalette(const OGPalette& _palette, bool from_socket) {
     unsigned num_iters = min(palette_colors.size(), _palette.size());
     for (unsigned i = 0; i < num_iters; ++i) {
         palette_colors_srgb[_palette[i].channel] = _palette[i].color;
@@ -4760,7 +4822,7 @@ void RiggedObject::GetShaderNames(std::map<std::string, int>& shaders) {
     const int kShaderStrSize = 1024;
     char buf[2][kShaderStrSize];
     char* shader_str[2] = {buf[0], buf[1]};
-    strcpy(shader_str[0], shader);
+    strcpy(shader_str[0], ofc->shader_name.c_str());
     if (GPU_skinning) {
         FormatString(shader_str[1], kShaderStrSize, "%s #GPU_SKINNING", shader_str[0]);
         std::swap(shader_str[0], shader_str[1]);

@@ -619,9 +619,6 @@
     <ClCompile Include="..\source\Internal\returnpathutil.cpp">
       <Filter>Internal</Filter>
     </ClCompile>
-    <ClCompile Include="..\source\Internal\snprintf.c">
-      <Filter>Internal</Filter>
-    </ClCompile>
     <ClCompile Include="..\source\Internal\spawneritem.cpp">
       <Filter>Internal</Filter>
     </ClCompile>
@@ -1852,9 +1849,6 @@
       <Filter>Internal</Filter>
     </ClInclude>
     <ClInclude Include="..\source\Internal\SIMD.h">
-      <Filter>Internal</Filter>
-    </ClInclude>
-    <ClInclude Include="..\source\Internal\snprintf.h">
       <Filter>Internal</Filter>
     </ClInclude>
     <ClInclude Include="..\source\Internal\spawneritem.h">

@@ -97,8 +97,8 @@ extern bool g_no_detailmaps;
 extern bool g_no_decals;
 extern bool g_no_decal_elements;
 extern bool g_character_decals_enabled;
-extern bool g_attrib_envobj_intancing_support;
-extern bool g_attrib_envobj_intancing_enabled;
+extern bool g_attrib_envobj_instancing_support;
+extern bool g_attrib_envobj_instancing_enabled;
 extern bool g_ubo_batch_multiplier_force_1x;
 
 const int kGlobalShaderSuffixLen = 1024;
@@ -535,7 +535,7 @@ static void UpdateShaderSuffix(SceneGraph* scenegraph, Object::DrawType object_d
             std::swap(shader_str[0], shader_str[1]);
         }
 
-        if (g_attrib_envobj_intancing_support && g_attrib_envobj_intancing_enabled) {
+        if (g_attrib_envobj_instancing_support && g_attrib_envobj_instancing_enabled) {
             FormatString(shader_str[1], kShaderStrSize, "%s #ATTRIB_ENVOBJ_INSTANCING", shader_str[0]);
             std::swap(shader_str[0], shader_str[1]);
         }
@@ -666,6 +666,7 @@ void SceneGraph::Draw(SceneGraph::SceneDrawType scene_draw_type) {
             batch_start = i;
         }
     }
+    EnvObject::AfterDrawInstances();
     for (auto current : detail_objects_surfaces_to_draw) {
         current.draw_owner->DrawDetailObjectInstances(current.instance_array, current.num_instances, Object::kFullDraw);
     }
@@ -698,6 +699,7 @@ void SceneGraph::Draw(SceneGraph::SceneDrawType scene_draw_type) {
                 batch_start = i;
             }
         }
+        EnvObject::AfterDrawInstances();
     }
     PROFILER_LEAVE(g_profiler_ctx);
     PROFILER_LEAVE(g_profiler_ctx);
@@ -820,6 +822,7 @@ void SceneGraph::Draw(SceneGraph::SceneDrawType scene_draw_type) {
                         // Avoid calling EnvObject::Draw repeatedly, so matrices etc can be shared instead of reacquired for every draw call
                         // TODO: last_ofr_is_valid is set to false in EnvObject::Draw - is it important?
                         obj.DrawInstances(&visible_static_meshe, 1, proj_view_mat, prev_proj_view_mat, &shadow_matrix, cam_pos, Object::kFullDraw);
+                        EnvObject::AfterDrawInstances();
                         obj.DrawDetailObjectInstances(&visible_static_meshe, 1, Object::kFullDraw);
                     }
                 }
@@ -1765,6 +1768,7 @@ void SceneGraph::DrawDepthMap(const mat4& proj_view_matrix, const vec4* cull_pla
                 batch_start = i;
             }
         }
+        EnvObject::AfterDrawInstances();
         if (object_draw_type != Object::kDrawDepthOnly) {
             // Batch and draw detail objects
             static std::vector<DetailObjectSurfaceDrawCall> detail_objects_surfaces_to_draw;
